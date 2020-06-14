@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181CEF5F248A24C1002198E1 /* AddWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CEF5E248A24C1002198E1 /* AddWordViewController.swift */; };
+		182DA7EE2484B6CF0043A3B5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DA7ED2484B6CF0043A3B5 /* TabBarController.swift */; };
+		183EB0A2248DFFD5008E2332 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EB0A1248DFFD5008E2332 /* DetailViewController.swift */; };
+		18485A51248333D300AF2E64 /* NowTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18485A50248333D300AF2E64 /* NowTestViewController.swift */; };
 		1848E48B2478ECA6008E70BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E48A2478ECA6008E70BF /* AppDelegate.swift */; };
 		1848E48D2478ECA6008E70BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E48C2478ECA6008E70BF /* SceneDelegate.swift */; };
-		1848E48F2478ECA6008E70BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E48E2478ECA6008E70BF /* ViewController.swift */; };
 		1848E4922478ECA6008E70BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848E4902478ECA6008E70BF /* Main.storyboard */; };
 		1848E4942478ECA7008E70BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848E4932478ECA7008E70BF /* Assets.xcassets */; };
 		1848E4972478ECA7008E70BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848E4952478ECA7008E70BF /* LaunchScreen.storyboard */; };
+		1848E49F2478EE3C008E70BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E49E2478EE3C008E70BF /* HomeViewController.swift */; };
+		1848E4A12478EE53008E70BF /* MemoriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E4A02478EE53008E70BF /* MemoriViewController.swift */; };
+		1848E4A32478EE5F008E70BF /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E4A22478EE5F008E70BF /* TestViewController.swift */; };
+		1848E4A52478EEBA008E70BF /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E4A42478EEBA008E70BF /* CalendarViewController.swift */; };
+		1848E4A924790160008E70BF /* WordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E4A824790160008E70BF /* WordListViewController.swift */; };
+		1848E4AF247A0F56008E70BF /* dataList.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1848E4AE247A0F56008E70BF /* dataList.csv */; };
+		1848E4B1247A1931008E70BF /* RealmDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E4B0247A1931008E70BF /* RealmDataList.swift */; };
+		704C8196BB5A296F516FC659 /* Pods_MyWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CC633A87B7C4FCBE84FD4 /* Pods_MyWords.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BCC997DEB8FB5225A77A2C7 /* Pods-MyWords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWords.debug.xcconfig"; path = "Target Support Files/Pods-MyWords/Pods-MyWords.debug.xcconfig"; sourceTree = "<group>"; };
+		181CEF5E248A24C1002198E1 /* AddWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewController.swift; sourceTree = "<group>"; };
+		182DA7ED2484B6CF0043A3B5 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		183EB0A1248DFFD5008E2332 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		18485A50248333D300AF2E64 /* NowTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTestViewController.swift; sourceTree = "<group>"; };
 		1848E4872478ECA6008E70BF /* MyWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1848E48A2478ECA6008E70BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1848E48C2478ECA6008E70BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1848E48E2478ECA6008E70BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1848E4912478ECA6008E70BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1848E4932478ECA7008E70BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1848E4962478ECA7008E70BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1848E4982478ECA7008E70BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1848E49E2478EE3C008E70BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1848E4A02478EE53008E70BF /* MemoriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriViewController.swift; sourceTree = "<group>"; };
+		1848E4A22478EE5F008E70BF /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		1848E4A42478EEBA008E70BF /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		1848E4A824790160008E70BF /* WordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListViewController.swift; sourceTree = "<group>"; };
+		1848E4AE247A0F56008E70BF /* dataList.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataList.csv; sourceTree = "<group>"; };
+		1848E4B0247A1931008E70BF /* RealmDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataList.swift; sourceTree = "<group>"; };
+		7036247C4FDE39C884BE2D4D /* Pods-MyWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWords.release.xcconfig"; path = "Target Support Files/Pods-MyWords/Pods-MyWords.release.xcconfig"; sourceTree = "<group>"; };
+		CD1CC633A87B7C4FCBE84FD4 /* Pods_MyWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				704C8196BB5A296F516FC659 /* Pods_MyWords.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				1848E4892478ECA6008E70BF /* MyWords */,
 				1848E4882478ECA6008E70BF /* Products */,
+				AE2E81E37ED527C39104263E /* Pods */,
+				E5D6CFFE263D6E4CDA418912 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +85,40 @@
 			children = (
 				1848E48A2478ECA6008E70BF /* AppDelegate.swift */,
 				1848E48C2478ECA6008E70BF /* SceneDelegate.swift */,
-				1848E48E2478ECA6008E70BF /* ViewController.swift */,
+				1848E49E2478EE3C008E70BF /* HomeViewController.swift */,
+				183EB0A1248DFFD5008E2332 /* DetailViewController.swift */,
+				1848E4A02478EE53008E70BF /* MemoriViewController.swift */,
+				1848E4A824790160008E70BF /* WordListViewController.swift */,
+				1848E4A22478EE5F008E70BF /* TestViewController.swift */,
+				18485A50248333D300AF2E64 /* NowTestViewController.swift */,
+				1848E4A42478EEBA008E70BF /* CalendarViewController.swift */,
+				181CEF5E248A24C1002198E1 /* AddWordViewController.swift */,
+				1848E4AE247A0F56008E70BF /* dataList.csv */,
+				1848E4B0247A1931008E70BF /* RealmDataList.swift */,
+				182DA7ED2484B6CF0043A3B5 /* TabBarController.swift */,
 				1848E4902478ECA6008E70BF /* Main.storyboard */,
 				1848E4932478ECA7008E70BF /* Assets.xcassets */,
 				1848E4952478ECA7008E70BF /* LaunchScreen.storyboard */,
 				1848E4982478ECA7008E70BF /* Info.plist */,
 			);
 			path = MyWords;
+			sourceTree = "<group>";
+		};
+		AE2E81E37ED527C39104263E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BCC997DEB8FB5225A77A2C7 /* Pods-MyWords.debug.xcconfig */,
+				7036247C4FDE39C884BE2D4D /* Pods-MyWords.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5D6CFFE263D6E4CDA418912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CC633A87B7C4FCBE84FD4 /* Pods_MyWords.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1848E49B2478ECA7008E70BF /* Build configuration list for PBXNativeTarget "MyWords" */;
 			buildPhases = (
+				0EC73751B0466F235649A0AA /* [CP] Check Pods Manifest.lock */,
 				1848E4832478ECA6008E70BF /* Sources */,
 				1848E4842478ECA6008E70BF /* Frameworks */,
 				1848E4852478ECA6008E70BF /* Resources */,
+				877FEB9E51E46E6A0A0C024E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1848E4AF247A0F56008E70BF /* dataList.csv in Resources */,
 				1848E4972478ECA7008E70BF /* LaunchScreen.storyboard in Resources */,
 				1848E4942478ECA7008E70BF /* Assets.xcassets in Resources */,
 				1848E4922478ECA6008E70BF /* Main.storyboard in Resources */,
@@ -133,14 +190,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EC73751B0466F235649A0AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyWords-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		877FEB9E51E46E6A0A0C024E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWords/Pods-MyWords-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWords/Pods-MyWords-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyWords/Pods-MyWords-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1848E4832478ECA6008E70BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1848E48F2478ECA6008E70BF /* ViewController.swift in Sources */,
+				18485A51248333D300AF2E64 /* NowTestViewController.swift in Sources */,
+				1848E4A12478EE53008E70BF /* MemoriViewController.swift in Sources */,
 				1848E48B2478ECA6008E70BF /* AppDelegate.swift in Sources */,
+				183EB0A2248DFFD5008E2332 /* DetailViewController.swift in Sources */,
+				182DA7EE2484B6CF0043A3B5 /* TabBarController.swift in Sources */,
+				181CEF5F248A24C1002198E1 /* AddWordViewController.swift in Sources */,
 				1848E48D2478ECA6008E70BF /* SceneDelegate.swift in Sources */,
+				1848E4A32478EE5F008E70BF /* TestViewController.swift in Sources */,
+				1848E4A52478EEBA008E70BF /* CalendarViewController.swift in Sources */,
+				1848E4B1247A1931008E70BF /* RealmDataList.swift in Sources */,
+				1848E4A924790160008E70BF /* WordListViewController.swift in Sources */,
+				1848E49F2478EE3C008E70BF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +390,13 @@
 		};
 		1848E49C2478ECA7008E70BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCC997DEB8FB5225A77A2C7 /* Pods-MyWords.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQ3PXRJDU7;
 				INFOPLIST_FILE = MyWords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +410,13 @@
 		};
 		1848E49D2478ECA7008E70BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7036247C4FDE39C884BE2D4D /* Pods-MyWords.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQ3PXRJDU7;
 				INFOPLIST_FILE = MyWords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
