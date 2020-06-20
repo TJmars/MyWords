@@ -19,6 +19,7 @@ class MemoriViewController: UIViewController {
     @IBOutlet weak var miss3Label: UILabel!
     @IBOutlet weak var miss4Label: UILabel!
     
+    
     //    Realmのインスタンス化
     let realm = try! Realm()
     var dataListArray = try! Realm().objects(RealmDataList.self)
@@ -29,6 +30,7 @@ class MemoriViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         // Do any additional setup after loading the view.
         

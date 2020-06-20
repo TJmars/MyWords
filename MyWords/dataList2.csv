@@ -1,0 +1,1736 @@
+0,zero,ゼロ
+1,role,役割、役
+2,roll,転がる/ を転がす
+3,healthy,健康な
+4,mammal,哺乳動物
+5,produce,を生産する/　農産物
+6,reproduce,を再生する / 繁殖する
+7,suffer,苦しむ　害を受ける/ を受ける
+8,lack,不足 / を欠いている
+9,curious,好奇心の強い　奇妙な
+10,however,しかし　どんなに～でも
+11,nevertheless,それにもかかわらず
+12,nonetheless,それにもかかわらず
+13,ape,類人類
+14,mark,印 点数 標識 / に印をつける　を示す
+15,target,的　達成目標 / を狙う
+16,skin,皮膚　皮
+17,tooth,歯
+18,decay,腐る　荒廃する / 腐敗　衰退
+19,area,地域　分野　面積
+20,bleed,出血する
+21,plenty,たくさん
+22,fresh,新しい　新鮮な
+23,drug,薬　麻薬
+24,amount,総額　量 / 総計～に達する　等しい
+25,sum,金額　合計　要点 / を要約する
+26,mind,精神　頭脳　意見　記憶力 / 嫌がる　気をつける
+27,definition,定義　限定
+28,numerous,多数の
+29,separate,を分ける　を引き離す　を区別する / 離れた　別々の
+30,split,を分ける/ 分裂する / 分け目　裂け目
+31,isolate,を孤立させる　を隔離する
+32,usual ,いつもの
+33,poison,毒
+34,carefully,注意深く　注意して
+35,control,を支配する　を抑制する / 支配　抑制
+36,discipline,訓練　しつけ　規律 / を訓練する　を罰する
+37,alcohol,アルコール　酒
+38,instance,実例　場合
+39,instant,即刻の　即席の / 瞬間
+40,depend,頼る　当てにする / ～次第である
+41,history,歴史
+42,tie,絆　ネクタイ　同点 / を結ぶ　をつなぐ
+43,bond,絆 / をくっつける
+44,culture,文化　教養
+45,cultivate,を耕す　を栽培する　を養う
+46,plant,植物　工場 / を植える
+47,biology,生物学
+48,unique,特有の　唯一の
+49,peculiar,奇妙な　特有の
+50,matter,問題　事態　物質 / 重要である
+51,taste,味　好み / 味がする / の味を見る
+52,flavor,風味　趣 / に風味をつける
+53,cause,を引き起こす / 原因　根拠　主義
+54,persuade,を説得する
+55,fact,事実
+56,treat,を扱う　を治療する　におごる / おごり　もてなし
+57,belong,所属している
+58,pick,選ぶ　摘む　掘る
+59,wolf,オオカミ
+60,raise,を上げる　を育てる　を集める　を提起する
+61,rear,後部 / 後部の / を育てる
+62,lift,を持ち上げる　を高揚させる
+63,breed,子を産む / を育てる
+64,female,女性の　雌の
+65,birth,誕生　出産
+66,dawn,夜明け　始まり
+67,dig,掘る　突っ込む　探求する
+68,hole,穴　欠点
+69,gap,割れ目　空白　相違
+70,within,の内部に　の範囲内で　～以内に
+71,while,する間に　の間ずっと　その一方で / 時間
+72,moment ,瞬間　時
+73,hunt,狩る　捜す / 探索　狩り
+74,instead,その代わりに
+75,behind,後に　劣って
+76,guard,を守る　を見張る / 警備員
+77,physical,身体の　物質の　物理的な
+78,manual,手の　手を使う / マニュアル
+79,gesture,身振り
+80,meaning,意味　意図
+81,misunderstand,誤解する
+82,signal,合図　信号 / に合図する
+83,embarrass,を困らせる
+84,foreign,外国の　異質の
+85,alien,外国の　異質な / 外国人　宇宙人
+86,domestic,国内の　家庭の
+87,overseas,海外へ / 海外の
+88,count,を数える / 重要である / 計算
+89,countless,無数の
+90,counterpart,片方　似たもの
+91,calculate,を計算する　と見積もる
+92,index,索引　目録　指数　指標
+93,common,共通の　普通の
+94,familiar,なじみのある　精通した
+95,mutual,相互の　共通の
+96,puzzle,を困らせる / わからないこと　パズル
+97,mystery,不思議　神秘
+98,reply,答える / 答え
+99,effective,効果的な
+100,efficient,効率的な　有能な
+101,mask,を隠す / マスク　仮面
+102,feeling,感情　意見　感覚
+103,psychologist,心理学者
+104,philosophy,哲学　人生感
+105,claim,を主張する　を要求する / 主張　権利　要求
+106, false,間違っている　嘘の
+107,fake,偽物の
+108,muscle,筋肉
+109,surround,を囲む
+110,tight,きつい　固定した　厳しい　余裕のない
+111,cheek,ほお
+112,pull,引く　車を寄せる
+113,lip,唇
+114,upward,上に向かって / 上方への
+115,forward,前に　将来に向かって
+116,slightly,わずかに
+117,subtle,微妙な
+118,perhaps,ひょっとすると　だいたい
+119,less,より少ない
+120,least,最小 / 最も～でない
+121,temperature,温度　体温
+122,seem,のように思える
+123,confuse,を当惑させる　を混同する
+124,describe,を言い表す　を描く　を説明する
+125,respond,反応する　答える
+126,correspond,合致する　相当する
+127,simple,単純な　簡単な　質素な
+128,complicated,複雑な
+129,complex,複雑な　複合的な
+130,explanation,説明　真相
+131,nerve,神経　神経質　勇気
+132,neuron,神経単位　（ニューロン）
+133,react,反応する　反作用する　反抗する
+134,chemical,科学製品 / 科学の　科学的な
+135,rise,上昇　増加 / 上がる　起きる　出世する
+136,soar,急上昇する　舞い上がる
+137,expression,表現　表情
+138,metaphor,隠喩　象徴
+139,therefore,したがって
+140,reflect,反射する　反映する　よく考える　もたらす
+141,clothes,衣服
+142,convenient,便利な　都合の良い
+143,though,～にもかかわらず
+144,discrimination,差別　区別
+145,prejudice,先入観　偏見
+146,blas,偏見　先入観
+147,reason,理由　道理　理性 / 推論する
+148,logic,論理
+149,rational,理性的な　合理的な
+150,past,過去 / 過去の / を過ぎて
+151,quite,かなり　まったく
+152,pretty,かなり / かわいらしい
+153,expensive,高価な
+154,rich,裕福な　豊富な
+155,poor,貧しい　粗末な　かわいそうな
+156,afford,～する余裕がある
+157,wealthy,裕福な　豊富な
+158,servant,召使い
+159,slave,奴隷　とりつかれた人
+160,master,主人 / を習得する
+161,dress,に衣服を着せる / ドレス
+162,regard,ＡをＢとみなす　を尊重する / 敬意　注意
+163,symbol,象徴　記号
+164,power,権力　能力　エネルギー　強国
+165,dye,染料 / 染まる
+166,elegant,上品な　理論整然とした
+167,polite,礼儀正しい　丁重に
+168,rude,無礼な　粗雑な
+169,ancient,古代の　昔からの
+170,coast,沿岸　海岸
+171,shore,岸
+172,Mediterranean,地中海の
+173,discover,を発見する　に気づく
+174,finding,発見　報告　判決
+175,shell,貝殻
+176,unlike,と異なって / 異なった
+177,liquid,液体の / 液体
+178,solid,故知の　固い　しっかりした / 固体
+179,contact,接触　連絡　関係 / と連絡を取る　と接触する
+180,access,接近
+181,let,～するのを許す　～の状態にさせる
+182,allow,を許す　を認める
+183,forgive,を許す
+184,smell,の匂いがする　の匂いを嗅ぐ / 匂いを発する
+185,branch,枝　支店
+186,space,場所　空間　用地　宇宙
+187,burn,焼ける　燃える
+188,perfectly,完璧に / まったく
+189,previously,以前に
+190,support,を支える
+191,prove,を証明する / とわかる
+192,demonstration,を証明する　を実演する / デモをする
+193,somehow,なんとかして　どういうわけか
+194,composition,構成　作品　作文
+195,consist,成る　存在する
+196,celebrate,祝う
+197,annual,年1回の　1年間の
+198,experiment,実験 / 実験する
+199,collapse,崩壊　倒れる
+200,survive,生き残る / から生き延びる　より長生きする
+201,observation,観察　監視
+202,lead,を導く　を率いる / 通じる / 首位
+203,guide,案内人　指導者 / 案内する　指導する
+204,offer,を提供する　を申し出る / 提供
+205,theory,理論　学説　推測
+206,academy,学士院　専門学校
+207,restore,を戻す　を修復する
+208,breathe,呼吸する
+209,blow,吹く　息を吐く / 打撃
+210,sigh,ため息
+211,remove,を取り除く　を移す
+212,eliminate,を取り除く
+213,exclude,を除外する
+214,oxygen,酸素
+215,disappear,消える
+216,fade,色あせる　見えなくなる
+217,vanish,消える
+218,bank,銀行　土手
+219,stick,を貼り付ける を刺す 行き詰まる / くっつく / 棒きれ
+220,bush,灌木　茂み
+221,police,警察
+222,fur,毛皮
+223,suspect,を疑う　だと思う / 容疑者
+224,attempt,を試みる　～しようとする / 試み　攻撃
+225,dare,あえて～する
+226,tempt,を誘惑する
+227,suicide,自殺
+228,marriage,結婚
+229,seriously,まじめに　深刻に
+230,despite,にもかかわらず
+231,grave,重大な　真剣な / 墓穴
+232,extensive,広範囲の　大規模な　広大な
+233,extend,を延長する　を広げる / 広がり
+234,stretch,を引き延ばす　に及ぶ / 伸びる
+235,search,捜査　追求 / 捜す
+236,whole,全体の / 全体
+237,clue,手がかり
+238,notice,に気づく / 注意 掲示
+239,overlook,を見落とす　を見下ろす　を大目に見る
+240,guest,招待客　宿泊客
+241,audience,聴衆　視聴者
+242,client,依頼人　取引先
+243,passenger,乗客
+244,similar,似通った　同類の
+245,alike,同様の
+246,parallel,平行な　類似の / 類似点 / 平行に
+247,resemble,に似ている
+248,missing,行方不明の　欠けている
+249,ring,鳴る　電話をかける / 輪　音
+250,rush,急いで行く / 忙しさ
+251,act,行動する　振る舞う / 行為　法律 / を演じる
+252,passive,受動的な　無抵抗の
+253,completely,完全に
+254,utter,を発する　を延べる / まったくの
+255,recognize,を認識する
+256,cognitive,認識の
+257,memory,記憶　思い出　記憶力
+258,monument,記念碑　遺跡
+259,loss,紛失　損害　死　敗北
+260,due,～のせいで
+261,incident,出来事　事件
+262,follow,～に従う　～の跡を継ぐ
+263,precede,より先に起こる
+264,flow,流れる / 流れ
+265,stream,小川　流れ
+266,divorce,離婚 / 離婚する
+267,ironic,皮肉な
+268,paradox,矛盾　逆説
+269,aware,気づいて　知って
+270,conscious,気づいて / 意識的な
+271,protect,を保護する　を守る
+272,defend,守る　防御する
+273,dirt,泥　ほこり　汚れ
+274,bacteria,バクテリア　細菌
+275,function,機能　役割 / 機能する
+276,sense,感覚　思慮　意識　意味 / を感じる
+277,rough,ざらざらした　おおよその　粗野な
+278,smooth,平らな　なめらかな　順調な
+279,surface,表面　外観
+280,determine,を特定する　を決定する　を決心する
+281,pale,青白い
+282,disease,病気　疲弊
+283,ease,容易さ　安楽さ / を和らげる　を取り除く
+284,mental,知能の　精神的な
+285,state,状態　国家　州 / を述べる
+286,sweat,汗をかく / 汗
+287,gene,遺伝子
+288,inherent,固有の
+289,basic,基礎の
+290,part,部分　部分　役　地域
+291,piece,一つの　部品の
+292,department,部門　学科　売り場
+293,arrival,到着
+294,cell,細胞　電池
+295,pass,通過する　合格する / を渡す / 経過する / 入場する
+296,human,人間の / 人間
+297,behavior,態度　行動
+298,glass,ガラス　コップ一杯の
+299,tube,管　チューブ
+300,toward,の方へ
+301,researcher,研究者
+302,scholar,学習
+303,variation,変化　差異　変異
+304,particular,特定の　特別の
+305,suggest,を提案する　を推薦する
+306,influence,に影響を及ぼす / 影響　影響力
+307,advice,忠告　助言
+308,benefit,利益　恩恵 / 利益を得る / 利益を与える
+309,aloud,声に出して
+310,opportunity,機会
+311,occasion,場合　行事　機会
+312,close,接近した　親密な　綿密な / 閉める
+313,communicate,を伝える
+314,feature,特徴　顔立ち / 役割を果たす
+315,trait,特色
+316,feather,羽　羽毛
+317,moral,道徳的な　倫理的な
+318,explore,探検する　探求する
+319,exploit,を利用する　を開発する　を搾取する
+320,concept,概念　発想
+321,notion,考え　理解　意向
+322,vocabulary,語彙
+323,sentence,文　判決 / に宣告する
+324,structure,構造　組織　建物
+325,actually,実際に　実は
+326,stimulate,を刺激する　を活気づける
+327,excite,を興奮させる
+328,brain,脳　頭脳
+329,development,発達　発展
+330,growth,成長　発展
+331,pioneer,開拓者　先駆者
+332,frequently,しばしば　頻繁に
+333,encourage,を励ます　を奨励する
+334,cheer,を励ます　を応援する / 声援
+335,brave,勇敢な
+336,bold,大胆な　際立った
+337,regular,規則的な　定期的な　通常の
+338,law,法律　法則
+339,assist,を助ける
+340,aid,支援　救援 / を援助する
+341,clerk,店員　事務員　職員
+342,workforce,総労働人口　労働力
+343,factory,工場
+344,worldwide,世界中で / 世界的な
+345,background,経歴　背景
+346,select,を選ぶ / 選りすぐりの
+347,customer,顧客
+348,accustomed,慣れている
+349,success,成功　出世
+350,triumph,勝利
+351,employee,従業員
+352,employer,雇い主
+353,hire,を雇う　を賃借する
+354,dismiss,を解雇する
+355,expect,を予期する　を期待する　と思う
+356,sudden,突然の
+357,anticipate,を予測する
+358,nor ,～もまた～ない
+359,neither,どちらも～しない
+360,main,主要な
+361,reduce,を減らす
+362,diminish,減少する
+363,stress,ストレス　圧力　強調 / を強調する
+364,necessarily,必ず
+365,necessary,必要な
+366,accident,事故　偶然
+367,traffic,交通
+368,disaster,災害
+369,save,を救う　を貯蓄する　を節約する
+370,chance,見込み　機会　偶然
+371,approach,取り組み　接近 / 近づく
+372,deal,量　取引　扱い
+373,cope,処理する
+374,bear,に耐える　を産む / 熊
+375,endure,に耐える
+376,generally,通例　一時的に　大体
+377,tend,傾向がある
+378,positive,積極的な　好ましい　肯定的な
+379,negative,否定の　消極的な　悪い
+380,quick,短時間の　素早い
+381,willing,する気がある　喜んで行う
+382,responsibility,責任
+383,guilty,有罪の　罪悪感を覚える
+384,innocent,無罪の　無邪気な
+385,commit,を犯す　関わる　を委託する
+386,position,位置　立場　状況　姿勢
+387,pose,ポーズをとる / もたらす
+388,pause,ちょっと止める / 小休止
+389,opinion,意見
+390,result,結果　成績 / 結果として起こる　終わる
+391,difficulty,困難
+392,flexible,柔軟な
+393,rigid,堅い　厳格な　硬直した
+394,severe,深刻な
+395,bitter,つらい　痛烈な　苦い
+396,strict,厳格な　厳密な
+397,tough,困難な　丈夫な
+398,enough,十分に / 十分な / 必要な数
+399,importance,重要性
+400,arise,起きる　起因する
+401,derive,を得る / 由来する
+402,stem,生じる　由来する / 茎
+403,delay,遅延　延期  / を遅らせる　を延期する
+404,postpone,を延期する
+405,prolong,を延長する
+406,solve,を解決する　を解答する
+407,knowledge,知識　認識
+408,although,～にもかかわらず　～だが
+409,appear,現れる　～と思われる
+410,perform,を行う　を演奏する
+411,instinct,本能　天性
+412,adapt,適応する / を適応させる　を合わせる
+413,adjust,を調節する　を適合させる
+414,owner,持ち主　飼い主
+415,possess,を所有している
+416,lie,横たわっている　嘘をつく / 嘘
+417,exhaust,を使い果たす　を疲れ果てさせる
+418,comfort,を慰める / 快適さ　慰め
+419,harsh,厳しい　不快な
+420,plate,皿　料理
+421,dish,皿　料理
+422,handle,を操縦する　をうまく扱う / つまみ
+423,furthermore,さらに
+424,top,頂上　上部　最高位
+425,bottom,底　最低部
+426,tail,尻尾　後部
+427,eventually,結局
+428,tale,嘘　架空の話
+429,enormous,莫大な　巨大な
+430,college,大学
+431,length,長さ
+432,span,期間　長さ
+433,meanwhile,一方では　その間に
+434,organization,組織　団体
+435,monitor,モニター / その間に
+436,exactly,正確に　ちょうど
+437,task,仕事　任務
+438,duty,義務　任務　関税
+439,assignment,課題　任務　割り当て
+440,challenge,に意義を唱える / 難問　挑戦
+441,originally,元来は　初めは
+442,ancestor,先祖
+443,consider,をよく考える　とみなす
+444,century,世紀
+445,certain,確かな
+446,ensure,を確実にする　を保証する
+447,assure,に保証する　を安心させる
+448,region,地域
+449,list,リスト　をリストにする
+450,varb,動詞
+451,oral,口頭での　口の
+452,linguistic,言語の
+453,form,形　人影 / を形作る
+454,shape,形　状態
+455,casual,普段の　無頓着な　偶然の
+456,drive,運転する　を追いやる / syoudou
+457,compound,複合の / を混ぜ合わせる　を悪化させる
+458,huge,巨大な　莫大な
+459,massive,巨大な　大規模な
+460,mass,大衆　塊
+461,technical,技術的な　専門の
+462,scientific,科学的な　科学の
+463,term,専門用語　学期　条件　間柄
+464,semester,学期
+465,finally,とうとう　ついに
+466,ultimate,究極の　根本の
+467,add,を加える　と言い足す
+468,extra,余分の　追加の
+469,spare,を省く　を惜しむ / 予備の
+470,create,を想像する
+471,constantly,絶えず
+472,nature,自然　性質　本質
+473,innate,生まれつきの
+474,frustrate,をイライラさせる　を挫折させる
+475,uniform,均等の　同一の / 制服
+476,union,組合　連合
+477,debate,議論　論争 / 討論する
+478,dispute,を議論する　に反論する
+479,controversy,論争
+480,invent,を発明する　をでっちあげる
+481,modern,現代の　近代の
+482,civilization,文明
+483,primitive,原始的な　原始の
+484,comparison,比較　匹敵
+485,stuff,詰め込む / 材料　題材
+486,staff,職員
+487,version,版　意見　翻訳
+488,field,畑　野原　分野　競技場
+489,set,を置く　を決める　を設定する
+490,choose,選ぶ
+491,normally,標準的に　普通は
+492,involve,を含む　を巻き込む　を没頭させる
+493,leather,革の
+494,honor,名誉　敬意　を尊敬する
+495,international,国際的な　国家間の
+496,match,匹敵するモノ　試合 / 調和する
+497,emperor,皇帝
+498,empire,帝国
+499,kingdom,王国
+500,royal,国王の　王立の
+501,spread,を広げる　を塗る / 普及
+502,scatter,をまき散らす / 分散する
+503,accumlate,蓄積する
+504,popularity,人気　流行
+505,possible,可能な　あり得る
+506,prospect,見込み　期待　将来性
+507,British,イギリス人　イギリスの
+508,violent,暴力的な　激しい
+509,fierce,激しい　凶暴な
+510,injury,負傷　けが
+511,strain,を酷使する　を痛める / 緊張　問題
+512,death,死
+513,fatal,致命的な　取り返しのつかない
+514,fate,運命
+515,alive,生きて　元気で
+516,vivid,新鮮な　生き生きした
+517,series,連続
+518,rule,規則　支配 / 支配する
+519,dominate,支配する
+520,university,大学
+521,forbid,を禁じる
+522,realize,を実現する　に気づく　を悟る
+523,perceive,を知覚する
+524,skill,技術　技能
+525,hurt,にけがをさせる　を傷つける
+526,offend,罪を犯す　の気分を害する
+527,social,社会の　社会的な
+528,interaction,交流　相互作用
+529,bite,かむ
+530,mad,怒っている　熱中して
+531,irritate,をいらだたせる
+532,order,を命令する / 命令　秩序
+533,mess,散らかっている
+534,release,を解放する　を発売する / 解放
+535,relieve,を取り除く　を安心させる
+536,energy,活力　エネルギー
+537,yell,大声で叫ぶ　エールを送る
+538,doubtful,疑っている　疑わしい
+539,whether,～かどうか　～だろうと
+540,concern,に関係する　を心配させる
+541,increasingly,ますます
+542,decrease,減少する　を減らす
+543,competitive,競争の　競争心の強い
+544,rival,に劣らない　と競争する
+545,adult,大人
+546,childhood,子供時代
+547,infant,乳児　乳児期の
+548,harmony,調和
+549,tune,メロディ　曲 / を調律する
+550,suitable,適当な
+551,decent,立派な　かなりの　親切な
+552,purpose,目的
+553,aim,を目標にする　努力する / 目的
+554,destination,目的地
+555,goal,ゴール　目標
+556,mission,任務　使節
+557,proper,適切な　正しい
+558,estate,財産　地所　不動産
+559,environment,環境
+560,amaze,を驚かせる
+561,astonish,を驚かせる
+562,startle,をびっくりさせる
+563,surprise,を驚かせる
+564,charm,を魅了する  / 魅力
+565,bore,を退屈させる
+566,frighten,を怖がらせる
+567,scare,をおびえさせる
+568,tradition,伝統　慣習
+569,superstition,迷信
+570,religion,宗教　信仰
+571,ethnic,民族の　民族的な
+572,ceremony,式　礼儀
+573,belief,信念　信頼　信仰
+574,medieval,中世の
+575,pure,純粋な　全くの
+576,tribe,種族
+577,folk,人々　民族の
+578,heritage,遺産　伝統
+579,evil,邪悪な / 害悪　邪悪
+580,vice,悪
+581,spirit,精神　気分　魂
+582,soul,魂　精神
+583,associate,を連想する / 仲間
+584,fortune,財産　運命　運
+585,luck,幸運　運
+586,enter,に入る　に入学する　に加わる
+587,wish,願う / 願い
+588,pray,祈る
+589,prey,獲物　犠牲者　餌食
+590,fertility,繁殖能力
+591,prosperity,繁栄
+592,flourish,栄える　繁茂
+593,ritual,儀式
+594,contemporary,現代の　同時代の
+595,incorporate,を取り入れる
+596,combine,を組み合わせる
+597,integrate,を結合する　を溶け込ませる
+598,federal,連邦の
+599,value,価値　価格　重要性
+600,evaluate,を評価する
+601,appreciate,を理解する
+602,precious,貴重な　高価な
+603,medical,医学の　医療の
+604,clone,クローン
+605,relate,を関連付ける / 関係がある
+606,relevant,適切な　実質的な　関連のある
+607,ordinary,普通の　ありふれた
+608,odd,奇妙な奇数の　臨時の
+609,opponent,反対者　相手
+610,object,反対する / モノ　目的
+611,insist,主張する　要求する
+612,assert,を断言する
+613,destroy,を破壊する
+614,ruin,破壊　廃墟 / を破滅させる
+615,spoil,を台無しにする　を甘やかす
+616,extinct,絶滅した　廃れた
+617,reliable,信頼できる　頼りになる
+618,fear,恐れる　気遣う / 恐怖　心配
+619,superior,優れた　上部の / 上司
+620,inferior,劣った
+621,argue,議論する　主張する
+622,patient,患者 / 忍耐強い
+623,reject,を拒絶する
+624,practically,ほとんど　事実上
+625,routine,型どおりの
+626,stereotype,固定観念
+627,receive,を受け取る
+628,inherit,を相続する
+629,ban,禁止する / 禁止
+630,promote ,を促進する
+631,boost,を高める
+632,foster,を養育する　を促進する / 里親
+633,maintain,を維持する　を主張する
+634,retain,を保つ
+635,sustain,を持続させる　を支える
+636,freedom,自由
+637,liberal,自由主義の
+638,generous,寛大な　気前の良い
+639,seek,探し求める
+640,consult,に相談する　を調べる
+641,unless,～でない限り
+642,clearly,明らかに　はっきりと
+643,obvious,明白な
+644,plain,明白な　易しい　無地の
+645,vague,曖昧な　ぼんやりとした
+646,harmful,害のある
+647,issue,問題点　発行物
+648,item,項目品目
+649,article,記事　品物　条項
+650,fever,熱　熱狂
+651,headache,頭痛
+652,stroke,卒中　一撃 / をなでる
+653,ful,インフルエンザ
+654,obesity,肥満
+655,fat,太っている 脂肪
+656,lean,傾く　やせた
+657,thin,薄い　痩せた　細い
+658,thick,厚い　太い　濃い
+659,dense,密集した　濃い
+660,useless,役に立たない　無駄な
+661,elaborate,手の込んだ　複雑な / 詳しく調べる
+662,meal,食事
+663,manage,どうにか～する　を経営する
+664,boss,上司　雇用主　社長
+665,preserve,を保存する を維持する　を守る
+666,conservation,補語
+667,connittee,委員会　委員
+668,education,教育
+669,instruct,に教える　に指示する
+670,figure,と思う / 図形　数学
+671,chart,図　海図
+672,decade,10年間
+673,national,全国的な　国家の　国民の
+674,native,出生地の　固有の
+675,citizen,国民　市民
+676,daily,毎日の　日常の
+677,steady,固定された　落ち着いた　一定の
+678,stable,安定した
+679,decline,減少する / 減少 / を断る
+680,option,選択
+681,adopt,を採用する　を養子にする
+682,kid,冗談を言う　子供
+683,schedule,を予定する / スケジュール
+684,scheme,計画　悪巧み / 企む
+685,teenager,10代の若者
+686,merely,単に
+687,factor,要因　因子
+688,predict,を予言する
+689,forecast,を予報する　を予想する
+690,achivement,達成　業績
+691,accomplish,を成し遂げる
+692,attain,に達する　を成し遂げる
+693,fullfill,を果たす　を満たす
+694,score,得点　楽譜 / を得点する
+695,far,遠くに　大いに / 遠い
+696,worship,礼拝する　を崇拝する　を尊敬する
+697,art,美術　芸術　技術
+698,nearly,ほとんど
+699,adolescent,青年 / 青年期の
+700,cite,を引用する
+701,quote,を引用する
+702,poll,世論調査
+703,rate,を評価する　割合　速度
+704,grandparent,祖父母
+705,cousin,いとこ
+706,pupil,生徒　弟子
+707,laugh,笑う
+708,lend,を貸す
+709,rent,を賃貸する / 賃貸料
+710,shake,を振り動かす
+711,climb,登る
+712,leap,跳ぶ / 飛躍
+713,greet,に挨拶をする　を出迎える
+714,mathematics,数学
+715,statistics,統計学
+716,industrial,産業の
+717,lazy,怠けものの　くつろいだ
+718,revolution,革命　回転
+719,mostly,大抵は
+720,astronomy,天文学
+721,satellite,人工衛星
+722,launch,を開始する　を打ち上げる
+723,equation,方程式　均衡
+724,peer,同僚 / 凝視する
+725,equivalent,同等の　相当する
+726,method,方法
+727,means,手段　財力
+728,unfortunately,不幸にも
+729,miserable,惨めな
+730,critical,批判的な　重大な　危機的な
+731,attitude,態度　姿勢　考え方
+732,turn,回転する　曲がる　変わる
+733,bend,を曲げる　 / 屈服する
+734,curve,曲線
+735,statue,像
+736,blame,を避難する　のせいにする / 非難
+737,accuse,を訴える　を非難する
+738,condemn,を責める
+739,typically,典型的に　概して
+740,rural,田舎の
+741,suburb,郊外
+742,urban,都市の
+743,low,低い 少ない / 低く　少なく
+744,currently,現在
+745,cash,現金
+746,so-called,いわゆる　自称の
+747,hypothesis,仮説　前提
+748,premise,前提
+749,assume,と思い込む　仮定する　を引き受ける
+750,risk,危険性 / を危険にさらす　あえて～する
+751,nowadays,この頃　最近では
+752,bathe,入浴する
+753,dust,ほこり　ちり
+754,expose,にさらす　を露出する　を暴露する
+755,shelter,住まい
+756,substance,物質　重要性　本質
+757,trend,流行　傾向
+758,fashion,流行　やり方
+759,encounter,に出くわす　に直面する / 出会い
+760,share,を共有する　を分配する　分担する
+761,wide,広い
+762,widespread,広範囲にわたる
+763,expand,っっｓ
+764,broad,広い　広範囲の
+765,narrow,狭い　かろうじて
+766,range,範囲　及ぶ　を並べる
+767,data,データ　資料
+768,income,収入
+769,level,程度　水準　段階
+770,thus,このようにして
+771,hence,したがって
+772,attention,注意　注目　　世話
+773,alert,油断のない　機敏な / 注意を呼びかける
+774,awake,を起こす　目覚める
+775,asleep,眠って
+776,victim,犠牲者　生け贄
+777,sacrifice,を犠牲にする / 犠牲
+778,major,主要な　大部分の　重大な / 専攻する
+779,chief,長　最高位の　主要な
+780,primary,主要な　初等の　根本の
+781,principal,主要な　校長　主役
+782,principle,主義　方針　原則
+783,shock,衝撃　打撃 / に衝撃を与える
+784,thrill,ゾクゾクする
+785,weak,弱い
+786,minor,それほど需要でない　少数の
+787,accept,を受け入れる　を承認する
+788,obey,に従う　を守る
+789,indeed,本当に　実際は　実に
+790,emphasize,強調する
+791,exaggerate,を誇張する　を強調する
+792,upset,を慌てさせる　ひっくり返す　取り乱す
+793,spill,をこぼす　こぼれる
+794,investigate,を調査する
+795,inquire,尋ねる
+796,painful,痛い　つらい　骨の折れる
+797,personally,個人的には　自分自身で
+798,disturb,を乱す　を邪魔する　不安にする
+799,distress,苦悩　披露　困窮
+800,interfere,妨げとなる
+801,interrupt,さえぎる　中断する
+802,topic,話題　論題
+803,period,期間　時期　時代
+804,afterwards,跡で　後に
+805,reveal,を明らかにする　を示す
+806,conceal,を隠す　を秘密にする
+807,inner,内部の　内面の
+808,center,中心　中央　センター
+809,core,核心　中心
+810,illness,病気
+811,symptom,兆候　症状
+812,everyday,毎日の　日常の
+813,exercise,運動　練習　課題
+814,highly,非常に　高く
+815,including,を含めて
+816,embrace,を抱きしめる
+817,lonely,寂しい　孤独の
+818,immediately,即座に
+819,sample,見本　サンプル
+820,evidence,証拠　形跡
+821,witness,目撃者　証人
+822,improve,を改良する　良くなる
+823,progress,全身　進歩 / 進歩する
+824,reform,改革 / 改善する
+825,resistance,抵抗
+826,fight,戦う　けんか　戦い
+827,battle,戦闘　競争
+828,conflict,対立する　矛盾する
+829,sensitivity,感じやすさ
+830,invade,に侵入する　を侵害する
+831,individual,個人　個々の　個人の
+832,propose,を提案する　をもくろむ　申し込む
+833,project,計画 / を見積もる　を投影する
+834,failure,失敗　怠惰
+835,silence,沈黙　静けさ
+836,revise,を変更する　を改訂する
+837,exotic,異国風の
+838,external,外の　うわべの / 外部
+839,interior,内部 / 内側の　内部の
+840,internal,内部の　体内の
+841,absurd,不合理な　馬鹿げた
+842,fool,愚か者
+843,silly,愚かな
+844,stupid,馬鹿な
+845,lovely,美しい　素敵な
+846,dull,退屈な　くすんだ　曇った
+847,ugly,醜い　不快な
+848,selfish,利己的な
+849,deliberately,恋に
+850,aspect,側面　局面　観点
+851,truth,真実　事実
+852,genuine,本物の　心からの
+853,fiction,小説　作り話
+854,myth,神話　作り話
+855,deceive,をだます
+856,pretend,ふりをする　装う
+857,intend,～するつもりだ
+858,impression,印象　感動
+859,grand,壮大な　偉大な　威厳のある
+860,acquaintance,知人　知識
+861,dollar,ドル
+862,fantastic,素敵な　途方もない　架空の
+863,illusion,幻想　錯覚
+864,purchase,を買う / 購入
+865,specific,特定の　明確な
+866,candidate,候補　志願者
+867,political,政治上の
+868,campaign,運動　練習　課題
+869,strategy,戦略　方策
+870,policy,政策　信条
+871,trick,をだます / 計略　いたずら
+872,vote,投票する
+873,govern,を統治する　を決定する
+874,administration,政権　政府　行政
+875,minister,大臣
+876,gain,を手に入れる　を増す / 利益　増大
+877,election,選挙　当選
+878,race,競争　人種
+879,subsequent,続いて起こる
+880,advertising,広告　宣伝
+881,commercial,商業の　営利的な
+882,honest,正直な　素直な
+883,illegal,違法の
+884,service,公共事業　奉仕　サービス
+885,consequently,その結果
+886,sequence,連続　順序
+887,recommend,を勧める　を推薦する
+888,cure,を治療する　を取り除く / 治療
+889,mention,についていう 言及する
+890,refer,言及する　参照する　関連がある
+891,comment,論評 / 論評する
+892,remark,感想　発言 / だと述べる
+893,corporation,企業　株式会社　法人
+894,prefer,を好む
+895,pop,飛び出る　ポップな
+896,degree,程度　度　学位
+897,scale,規模　段階　はかり
+898,dimension,寸法　次元　重要性
+899,chip,薄切り　チップ
+900,consumer,消費者
+901,demand,要求する / 要求　需要
+902,sort,種類　性質　を分類する
+903,species,種
+904,detail,細部　詳細
+905,collect,を集める　集まる
+906,gather,集まる
+907,assemble,集まる　を組み立てる
+908,conference,会議　協議
+909,habit,習慣　癖
+910,addiction,中毒　熱中
+911,habitat,生息地
+912,resident,住民　滞在者
+913,male,男性の　雄の
+914,whereas,一方で　～だけれども
+915,sacred,神聖な　とても重要な
+916,rather,むしろ　かなり　いくぶん
+917,ideal,理想的な　観念的な / 理想
+918,romantic,空想的な
+919,abstract,抽象的な / 要約する
+920,fit,合う / 適した　体調が良い
+921,alongside,のそば　と一緒に
+922,beside,のそばに
+923,except,を除いて
+924,above,上に　前述の
+925,beyond,を超えて　～の及ばない
+926,forth,前へ　外へ
+927,inside,の中に　中へ　内側
+928,swallow,飲み込む　ツバメ
+929,pound,ポンド
+930,business,商売　仕事　関係のあること
+931,prize,賞　貴重なもの
+932,favorite,お気に入りの
+933,brush,ブラシ / ブラシをかける
+934,beg,懇願する
+935,shine,輝く　秀でる　照らす
+936,sweep,掃除をする　殺到する
+937,apply,を適用する　を向ける / 申し込む　当てはまる
+938,affect,に影響する　を感動させる
+939,acre,エーカー
+940,yard,ヤード
+941,height,高さ
+942,inch,インチ
+943,quarter,4分の1　地域
+944,dot,点　しみ
+945,angle,角度　観点
+946,square,正方形 / 直角の　平方の
+947,continent,大陸
+948,Atlantic,大西洋の
+949,Pacific,太平洋の
+950,ocean,大洋
+951,marine,海の
+952,bay,入江　湾
+953,canal,運河
+954,reef,岩礁
+955,tide,潮　潮流
+956,flood,洪水 / を水浸しにする
+957,pour,を注ぐ　土砂降りする　流れ出る
+958,island,島
+959,peak,最高潮　頂上
+960,slope,坂　勾配
+961,valley,谷
+962,glacier,氷河
+963,fountain,噴水　泉
+964,cave,洞窟
+965,horizon,地平線　範囲
+966,volcano,火山
+967,appropriate,適切な
+968,sale,販売　売上高　特売
+969,retail,小売り / を小売りする
+970,sail,航行する / 帆　航海
+971,career,職業　経歴
+972,rubber,ゴム
+973,likely,ありそうな　多分
+974,knock,打つ　たたく / ノック音
+975,palm,手のひら　ヤシ
+976,aggressive,攻撃的な　積極的な
+977,attack,攻撃　非難　発作 / 攻撃する
+978,hostile,敵意のある　相反する
+979,friendship,友人関係　友情
+980,limit,を制限する / 制限　限界
+981,confine,を制限する　を閉じ込める
+982,restriction,制限
+983,repeat,繰り返す
+984,ability,能力　才能
+985,capable,できる　有能な
+986,disabled,障害のある
+987,enable,可能にする
+988,earn,を得る　をもたらす
+989,insurance,保険
+990,several,いくつかの　それぞれの　いろいろな
+991,multiple,多様な　倍数の
+992,record,記録　履歴　成績 / を記録する
+993,document,文書　記録 / を記録する
+994,register,を登録する　を記録する
+995,worth,価値　の価値がある
+996,deserve,に値する
+997,directly,直接に
+998,president,大統領　社長　会長
+999,situation,立場　状況　位置
+1000,delicate,壊れやすい　繊細な
+1001,case,場合　実例　事件　主張
+1002,substitute,代用品　代理人 / を代わりに使う
+1003,movement,動き　運動　移動
+1004,mobile,移動式の　動きやすい
+1005,incentive,刺激　誘因　報奨金
+1006,occur,起こる　浮かぶ
+1007,strike,にぶつかる　の心に浮かぶ　ストライキ
+1008,pattern,様式　模様　手本
+1009,unknown,未知の
+1010,contrary,反対の
+1011,intimate,親しい　詳しい
+1012,channel,経路　チャンネル　海峡
+1013,trap,に閉じ込める 罠
+1014,glacier,の下に
+1015,construction,建設　建築物
+1016,manufacture,を製造する / 製品
+1017,architecture,建築　建築技術
+1018,throughout,通して　至る所に
+1019,rescue,救助　救済  / を救う
+1020,ton,トン　大量
+1021,twist,をより合わせる　を曲げる
+1022,steel,鉄鋼
+1023,crush,を押しつぶす　潰れる / 混雑
+1024,defeat,敗北させる　失敗させる
+1025,overcome,を克服する　に勝つ
+1026,conquer,を征服する　を克服する
+1027,yield,を産出する　屈する
+1028,surrender,降伏する　譲り渡す
+1029,overwhelm,を圧倒する
+1030,crash,衝突する　墜落する
+1031,stranger,知らない人　未経験者　不慣れな人
+1032,sex,性
+1033,gender,性
+1034,differently,異なって
+1035,otherwise,そうでなければ
+1036,shortly,まもなく　手短に　少し
+1037,shrink,縮む　尻込みする
+1038,famine,飢饉　不足
+1039,undergo,を受ける　を経験する
+1040,surgery,外科　手術
+1041,lower,を下げる / 下部の　下級の
+1042,upper,上の　上位の
+1043,pressure,圧力　重圧　切迫
+1044,depress,を落胆させる
+1045,recession,不況
+1046,suppress,を鎮圧する　を抑える
+1047,anxiety,心配　切望
+1048,hide,を隠す　隠れる
+1049,remind,に思い出させる
+1050,bury,を埋める
+1051,request,依頼 / を要請する
+1052,appeal,懇願する　求める / 魅力
+1053,crowd,群衆　大衆　群がる
+1054,tense,緊張した　硬直した
+1055,elevator,エレベーター
+1056,shoulder,肩
+1057,complaint,不平
+1058,nowhere,どこにも～ない / 実在しない場所
+1059,somewhere,どこかで　およそ
+1060,elsewhere,ほかのところで
+1061,jam,を詰め込む　を動かなくする　群がる
+1062,subway,地下鉄
+1063,anthropologist,人類学者
+1064,pack,を包む　を詰める / 1箱
+1065,public,公共の　民衆の / 民衆
+1066,avoid,を避ける
+1067,escape,逃げる　免れる / 脱出　逃避
+1068,flee,逃げる　免れる / 脱出　逃避
+1069,confront,に立ちはだかる　に立ち向かう
+1070,emotionally,感情的に
+1071,enthusiasm,熱中　熱意
+1072,passion,情熱　熱中　激情
+1073,obtain,を入手する
+1074,acquire,を習得する　を手に入れる
+1075,kick,蹴る
+1076,helpful,助けになる　役に立つ
+1077,youth,青年時代　若者　若さ
+1078,shoot,撃つ
+1079,adventure,冒険
+1080,venture,冒険　思い切って～する
+1081,expedition,遠征　探検者
+1082,according,したがって　一致して
+1083,survey,調査　概観 / を概説する
+1084,board,板　委員会　会議 / に搭乗する
+1085,broadcast,放送 / 放送する
+1086,electronic,電子の
+1087,note,に注意する　に気づく　に言及する / メモ
+1088,professor,教授
+1089,age,年齢　年代　老年　時代
+1090,interest,興味　重要性　関心　利益 / 興味を持たせる
+1091,era,時代
+1092,cooperation,協力
+1093,joint,間接　つなぎ目 / 共同の
+1094,generate,を生み出す
+1095,billion,10億
+1096,indication,兆候　指示
+1097,emerge,現れる　明らかになる　抜け出す
+1098,design,を設計する / 設計　デザイン
+1099,engage,を従事させる　婚約させる　を雇う
+1100,frontier,国境　辺境
+1101,border,境界　国境
+1102,boundary,境界　限界
+1103,transfer,を転勤させる　を移動させる　乗り換える
+1104,transplant,移植する / 移動
+1105,fascinate,魅了する
+1106,innovative,革新的な
+1107,colleague,同僚
+1108,fellow,やつ　仲間
+1109,enemy,敵
+1110,conclude,と結論づける　を終える
+1111,dedicate,を捧げる
+1112,information,情報　案内
+1113,warn,に警告する
+1114,grade,程度　成績　学年
+1115,graduate,卒業する / 卒業生　院生
+1116,paragraph,段落
+1117,comprehend,を理解する
+1118,absorb,を吸収する　理解する　夢中にさせる
+1119,grasp,をつかむ　を把握する
+1120,material,原料　資料　物質
+1121,discourage,を妨害する　を落胆させる
+1122,disappoint,を失望させる
+1123,appoint,指名する　指定する
+1124,foundation,土台　基礎　設立
+1125,establish,を設立する
+1126,facility,施設　機能　適正
+1127,chore,日常の雑事　退屈な仕事
+1128,lifetime,一生
+1129,visual,資格の　目に見える
+1130,visible,見える
+1131,vision,未来像　空想　視力
+1132,insight,洞察力　見識
+1133,sight,視力　見ること　視界　光景 / 名所
+1134,image,印象　像画像　生き写し
+1135,fancy,高価な　装飾的な / 空想 /を想像する
+1136,prior,前の　優先的な
+1137,former,前者　前者の
+1138,latter,後者　後者の
+1139,enhance,を高める　をより良くする
+1140,focus,の焦点を合わせる　を集中させる / 焦点
+1141,distinguish,区別する
+1142,contrast,対照　相違 / を対比する
+1143,track,を追う / 小道　走路
+1144,trail,小道　跡 / を追跡する　を引きずる
+1145,overall,全面的な　全体として
+1146,trouble,困ること　問題 / を悩ませる
+1147,bother,悩む　わざわざ～する
+1148,phrase,句　言い回し　フレーズ
+1149,proverb,ことわざ
+1150,usage,語法　使用法
+1151,ahead,前方へ　事前に　出世して
+1152,fundamental,基本的な　必須な / 基本
+1153,radical,根本的な　急進的な
+1154,finance,財政　財源
+1155,virtually,ほとんど　実質的には
+1156,engineering,工学
+1157,machanic,機械工学
+1158,machinery,機械
+1159,wab,ウェブ　蜘蛛の巣
+1160,network,ネットワーク
+1161,operate,を操作する / 動く　作用する　手術する
+1162,satisfy,を満足させる
+1163,fill,を満たす　を占める
+1164,occupy,を占める　　を占領する
+1165,requirement,要求　必要条件
+1166,enjoyment,楽しみ　享受
+1167,joy,喜び
+1168,pleasure,楽しみ
+1169,delight,を大喜びさせる
+1170,pleasant,心地よい　楽しい
+1171,latest,最近の
+1172,advance,前進　発達　進歩させる
+1173,proceed,進む　続ける　取りかかる
+1174,sophisticated,洗練された　精巧な
+1175,publish,を出版する　を発表する
+1176,journal,雑誌　日誌
+1177,translation,翻訳　移行
+1178,interpret,を解釈する　を通訳する
+1179,accuracy,正確な　精度
+1180,random,無作為の　手当たり次第の
+1181,keen,熱心の　鋭い　激しい
+1182,crazy,正気でない　夢中である
+1183,intense,強烈な　激しい
+1184,affair,事態　用事　事件　問題
+1185,deliver,を配達する　を伝える　を行う
+1186,distribute,を分配する
+1187,literature,文学　文献
+1188,literacy,知識能力
+1189,literal,文字通りの
+1190,post,郵便　地位 / を投函する
+1191,block,塊　区画 / を妨害する
+1192,digital,デジタルの
+1193,display,展示　表現 / を展示する
+1194,exhibit,を展示する　を示す / 展示
+1195,freeze,凍る　動かなくなる
+1196,flash,閃光　ひらめき / 光る
+1197,imply,を意味する　を暗示する
+1198,inevitably,必然的に
+1199,intellectual,知的な / 知識人
+1200,brilliant,優れた　才能あふれる
+1201,intelligent,知能の高い　知性ある
+1202,sharp,よく切れる　急激な　利口な
+1203,smart,頭の良い　洗練された
+1204,wise,賢い
+1205,wisdom,知恵
+1206,clever,利口な　器用な　抜け目ない
+1207,urge,を説得する　を主張する / 衝動
+1208,impulse,衝動　刺激
+1209,pronounce,を発音する　を宣言する
+1210,dialect,方言
+1211,grammar,文法
+1212,talent,才能ある人
+1213,faculty,能力　才能　学部
+1214,genius,天才　才能
+1215,eager,熱望して　熱心な
+1216,imitate,をまねる
+1217,stare,じっと見ること
+1218,glance,チラリと見る
+1219,gaze,見つめる
+1220,float,を浮かべる / 浮く　漂う
+1221,sink,沈む　崩れ落ちる / を沈める
+1222,drift,漂う  移り変わる / 漂流物
+1223,scratch,ひっかく　ひっかき傷
+1224,tap,軽くたたく
+1225,nod,うなずく
+1226,yawn,あくび
+1227,expert,熟練者　専門家 / 熟達した
+1228,ratio,比率
+1229,proportion,割合　部分　つりあい　比例
+1230,virus,ウイルス　病原体
+1231,infect,感染する
+1232,rest,休み　残り / 休む
+1233,entirely,全く
+1234,absolute,完全な
+1235,wonder,脅威　不思議 / 不思議に思う　～かと思う
+1236,distant,遠い　冷ややかな
+1237,remote,遠く離れた
+1238,root,根　根拠　源 / を根付かせる
+1239,middle,中央　中間
+1240,vast,膨大な　広大な
+1241,travel,旅行する　進む
+1242,journey,旅行
+1243,voyage,船旅　航海
+1244,migration,移住
+1245,immigration,移住
+1246,mile,マイル
+1247,road,道路
+1248,route,道
+1249,highway,幹線道路
+1250,avenue,街路　おおどおり
+1251,path,小道　跡 / を追跡する　を引きずる
+1252,railroad,鉄道
+1253,reach,に着く　に達する / 手を伸ばす
+1254,weight,重量　重さ
+1255,measure,対策　基準 / 測る　評価する
+1256,greenhouse,温室
+1257,gas,気体　ガソリン
+1258,pump,くみ上げる　排出する / ポンプ
+1259,atmosphere,雰囲気　大気
+1260,mood,雰囲気　気分
+1261,tone,音色　口調　傾向　色合い
+1262,fuel,燃料
+1263,acid,酸性
+1264,carbon,炭素
+1265,emission,放出量
+1266,tropical,熱帯の
+1267,rainforest,熱帯雨林
+1268,trash,ゴミ
+1269,garbage,生ゴミ
+1270,illustrate,を説明する　に挿絵を入れる
+1271,protest,抗議　主張 / に抗議する　を主張する
+1272,inspire,を鼓舞する　を喚起する
+1273,panic,大混乱　恐慌 / うろたえる
+1274,per,～につき
+1275,cent,セント
+1276,supply,供給　必需品 / を供給する
+1277,equipment,装備　備品
+1278,shelf,棚
+1279,empty,空になる / を空にする / 空の
+1280,blank,空白の
+1281,estimate,を見積もる　判断する / 見積もり
+1282,assess,を評価する　を査定する
+1283,judge,を判断する　を裁く / 裁判官
+1284,account,説明する　原因となる　占める
+1285,trade,貿易　商売 / 取引する
+1286,exchange,を交換する / 交換
+1287,population,人口　全住民
+1288,merchant,商人 / 商業の
+1289,impact,影響　衝撃　衝突
+1290,climate,気候
+1291,import,を輸入する / 輸入品
+1292,transport,を輸送する / 乗り物　運搬
+1293,export,輸出する
+1294,vehicle,乗り物　伝達手段
+1295,crop,作物　収穫高
+1296,grain,穀物
+1297,harvest,収穫 / を収穫する
+1298,calorie,カロリー
+1299,rope,なわ
+1300,wire,針金　ケーブル
+1301,chain,鎖　チェーン
+1302,edge,刃　縁　端
+1303,iron,鉄
+1304,coal,石炭
+1305,clay,粘土
+1306,string,ひも　糸
+1307,furniture,家具
+1308,refrigerator,冷蔵庫
+1309,respect,を尊敬する　を尊重する / 尊敬
+1310,admire,を賞賛する　に感心する
+1311,praise,を賞賛する / 賞賛
+1312,discuss,話し合う　討議する
+1313,conversation,会話
+1314,panel,委員会
+1315,studio,スタジオ　放送室
+1316,settle,定住する　落ち着く / を解決する　を決める
+1317,fix,を修理する　を固定する
+1318,repair,を修理する / 修理
+1319,refuse,を拒絶する / ゴミ
+1320,deny,を否定する　を拒む
+1321,beast,動物　獣
+1322,beauty,美しさ　美人
+1323,invite,を招待する
+1324,burst,破裂
+1325,explode,爆発する　急増する
+1326,crack,割れ目　隙間 / 割れる
+1327,shout,叫ぶ　大声で言う
+1328,scream,金切り声
+1329,exclaim,叫ぶ
+1330,whisper,ささやく / ささやき
+1331,replace,に取って代わる　を取り替える
+1332,force,無理矢理させる / 力
+1333,impose,を課す　を押しつける / つけ込む
+1334,army,軍隊
+1335,soldier,軍人　戦士
+1336,draw,描く
+1337,portray,を描く　を描写する
+1338,drag,を引きずる / だらだらと続く
+1339,recent,最近の
+1340,interview,面接する
+1341,recall,を思い出す　を呼び出す
+1342,hesitate,ためらう
+1343,dislike,を嫌う / 嫌悪
+1344,hate,を憎む / 憎しみ
+1345,concentrate,集中する　を集中させる
+1346,meditation,瞑想　熟考
+1347,abandon,を見捨てる　を諦める
+1348,quit,をやめる
+1349,desert,を捨てる / 砂漠 / 不毛の
+1350,classic,傑作　古典 / 典型的な
+1351,classify,を分類する
+1352,rank,階級　地位　列 / 位置する
+1353,status,地位　状態
+1354,ladder,はしご　階段
+1355,decision,決定　決心
+1356,resolve,を解決する　決心する
+1357,film,映画　フィルム
+1358,return,を戻す　戻る / 返却
+1359,glory,栄光
+1360,pride,誇り　自尊心
+1361,shame,恥　残念なこと
+1362,pity,哀れみ　残念なこと / を気の毒に思う
+1363,feed,養う / 食事をする
+1364,theme,主題
+1365,division,分割　分配　部門　割り算
+1366,category,範疇　部類
+1367,section,部分　区分
+1368,profit,利益　利益を得る
+1369,reputation,名声　評判
+1370,fame,名声
+1371,cancer,がん
+1372,struggle,闘争　もがき / 苦闘する
+1373,strive,努力する　戦う
+1374,effort,努力
+1375,condition,状況　状態　条件
+1376,context,背景　前後関係
+1377,temporary,一時的な
+1378,extremely,非常に
+1379,excessive,過度の
+1380,via,を経由して　によって
+1381,chat,おしゃべりする / おしゃべり
+1382,online,オンラインの
+1383,sorrow,悲しみ
+1384,regret,後悔　残念
+1385,apologize,謝る
+1386,gift,贈り物　才能
+1387,funeral,葬式
+1388,air,空気　空中
+1389,bill,請求書　法案　紙幣
+1390,address,住所　挨拶
+1391,row,列　こぐ
+1392,provide,を提供する　養う　備える
+1393,prompt,を刺激する / 即座の　機敏な
+1394,participate,参加する
+1395,locate,を探し出す　を設ける
+1396,meet,に会う　を満たす
+1397,exist,存在する　生存する
+1398,prevail,普及する　打ち勝つ
+1399,confess,白状する　認める
+1400,site,敷地　跡地
+1401,neighbor,隣人
+1402,district,地域　地区
+1403,realm,領域　分野
+1404,territory,領土　範囲
+1405,whenever,～するときはいつでも　いつ～しようとも
+1406,remain,依然～のまま　～にとどまる / 残り
+1407,archaeologist,考古学者
+1408,unwilling,～する気はない　不本意な
+1409,reluctant,気の進まない
+1410,admit,認める
+1411,fault,責任　欠陥　欠点
+1412,character,特徴　性格　人物
+1413,attribute,～のせいにする / 特質
+1414,hardly,ほとんど～ない
+1415,barely,かろうじて～する
+1416,cheat,をだます
+1417,sympathy,同情　共感
+1418,advantage,利点　利益
+1419,merit,長所　価値
+1420,virtue,美徳　長所
+1421,privilege,特権　名誉
+1422,crime,犯罪
+1423,court,法廷　裁判官
+1424,pursuit,追跡　追求　仕事
+1425,chase,追う / 追跡
+1426,entertainment,娯楽　催し物　接待
+1427,amusement,楽しみ　面白さ　娯楽
+1428,attraction,魅力　呼び物
+1429,sufficient,十分な
+1430,adequate,十分な　適切な
+1431,modest,謙虚な　控えめな
+1432,subject,主題　科目 / 服従する
+1433,text,本文　原文
+1434,manuscript,原稿　写本
+1435,source,源　原因　情報源
+1436,capital,首都　資本　大文字
+1437,quality,質　特性
+1438,entitle,に資格を与える
+1439,sheet,シーツ　一枚の紙
+1440,desire,を望む / 欲望　要望
+1441,ambition,熱望　野心
+1442,appetite,食欲　欲求
+1443,hunger,飢え　渇望
+1444,economical,経済的な　倹約する
+1445,luxury,贅沢品
+1446,goods,商品
+1447,commodity,商品　日用品
+1448,convey,を伝える　を運ぶ
+1449,shift,を変える 移る / 変化　移動
+1450,transmit,を送る　を伝える　を伝染させる
+1451,novel,小説 / 斬新な
+1452,poem,詩
+1453,bible,聖書　必読書
+1454,incredible,信じられない　素晴らしい
+1455,grant,を与える　を認める
+1456,evolution,進化　発展
+1457,craft,工芸　技術
+1458,print,を印刷する　出版する / 印刷
+1459,available,利用できる　手に入る
+1460,author,著者　作者
+1461,authority,権威　権限　当局
+1462,council,議会　会議
+1463,tool,道具　手段
+1464,implement,道具　手段 / を実行する
+1465,instrument,器具　楽器
+1466,permanent,永久の
+1467,leisure,暇　余暇
+1468,electric,電気の
+1469,hobby,趣味
+1470,apart,離れて　個々に
+1471,flat,平らな
+1472,aside,わきに　離して
+1473,prison,刑務所　拘置所
+1474,steal,を盗む
+1475,deprive,から奪う
+1476,rob,から奪い取る
+1477,murder,殺人
+1478,trial,裁判　試み　試練
+1479,justice,正義　公正　裁判官
+1480,bully,をいじめる / いじめっ子
+1481,thief,泥棒
+1482,whatever,～することは何でも　何が～しようとも
+1483,wherever,～するところはどこでも　どこへ～しようとも
+1484,safety,安全
+1485,secure,安全な　しっかりした
+1486,danger,危機　脅威
+1487,endangered,絶滅の危機
+1488,threat,脅威　脅迫
+1489,farming,農業
+1490,peasant,小作農
+1491,soil,土　土地
+1492,mud,泥
+1493,probably,おそらく　多分
+1494,style,様式　型　文体
+1495,agricultural,農業の
+1496,license,を認可する / 免許
+1497,present,出席して　現在の / 贈り物 / 提出する
+1498,absence,不在　欠如
+1499,drama,ドラマ　演劇
+1500,comedy,喜劇
+1501,heaven,天国
+1502,wrap,を包む　を巻き付ける
+1503,cosmetic,化粧の　美容の / 化粧品
+1504,quantity,量　多量
+1505,volume,容量　音量
+1506,cost,費用　犠牲 / がかかる
+1507,charge,を請求する　を告発する　を充電する
+1508,pollution,汚染　公害
+1509,agree,に同意する　賛成する　合う
+1510,contract,契約する　縮める / 契約書
+1511,approve,賛成する　承認する
+1512,promise,約束する / 約束　見込み
+1513,compromise,妥協する
+1514,prise,値段　物価　代償
+1515,pay,代金を支払う　割に合う　 / 給料
+1516,fee,料金　謝礼
+1517,salary,給料
+1518,wage,賃金
+1519,fare,運賃
+1520,owe,に借金がある　に恩を受けている
+1521,grocery,日用雑貨　食料品店
+1522,prevent,を妨げる　を防ぐ
+1523,reverse,を逆にする　を一変する / 逆の
+1524,nutrition,栄養
+1525,specialize,専門とする
+1526,alternative,代わり　選択股/ 別の
+1527,modify,を修正する
+1528,convert,を変える
+1529,transform,を変化させる
+1530,melt,溶ける　和らぐ / を溶かす
+1531,view,見解　眺め　視野 / を見る
+1532,perspective,観点　遠近法　見通し
+1533,landscape,風景
+1534,scene,場面　光景　現場
+1535,bit,少し
+1536,tiny,とても小さい　ごくわずかの
+1537,somewhat,いくぶん
+1538,fairly,かなり　適切に
+1539,diet,食事　国会 / ダイエットする
+1540,parliament,議会　国会
+1541,conduct,を行う　を指揮する　を案内する / 行為
+1542,identify,の身元を確認する　を特定する
+1543,component,要素　成分
+1544,content,内容　目次 / 満足して
+1545,ingredient,材料　成文
+1546,roof,屋根
+1547,lock,錠
+1548,theater,劇場　映画館
+1549,kindergarden,幼稚園
+1550,pub,居酒屋
+1551,smoke,煙　たばこ
+1552,wheat,小麦
+1553,protein,タンパク質
+1554,recipe,調理法　秘訣
+1555,raw,生の　加工されていない
+1556,justify,を正当化する
+1557,warmth,温かさ
+1558,depth,深さ
+1559,profound,重大な　深い
+1560,shallow,浅い　浅はかな
+1561,tremendous,ものすごい　すばらしい
+1562,clinical,臨床の　病院の
+1563,extract,抜粋　抽出物 / を抽出する
+1564,withdraw,を引っ込める　を退かせる / 退く
+1565,retire,退職する
+1566,retreat,後退する　逃げる / 後退　撤退
+1567,significant,重要な　かなりの　有意の
+1568,represent,を表す　を代表する
+1569,agent,代行業者　代理人
+1570,introduce,を紹介する　を導入する
+1571,contain,を含む　を収容する
+1572,accommodate,を収容する　を宿泊させる
+1573,private,個人の　内密の　民間の
+1574,secret,秘密　秘訣 / 秘密の
+1575,plot,筋　たくらみ　小区画
+1576,therapy,治療　療法
+1577,household,家事の / 家族
+1578,lung,肺
+1579,detect,を見抜く　を検出する
+1580,examine,を調べる　を診察する
+1581,check,を調べる　を阻止する / 検査　点検
+1582,analyze,を分析する
+1583,review,を見直す　を復習する　を批評する
+1584,column,円柱　コラム
+1585,trace,跡 / を追跡する　を見つけ出す
+1586,confirm,を確かめる　を立証する
+1587,firm,固い　断固とした / 会社
+1588,damage,損害　損傷 / に損傷を与える
+1589,wound,傷 / を傷つける
+1590,executive,執行権のある　行政の / 幹部
+1591,facial,顔の
+1592,tongue,舌　言語
+1593,stomach,胃　腹
+1594,thumb,親指
+1595,knee,膝
+1596,deaf,耳が聞こえない
+1597,waste,廃物の　不毛の / 浪費する / 廃棄物
+1598,abuse,を乱用する　を虐待する / 乱用　虐待
+1599,insult,を侮辱する / 侮辱
+1600,stage,階段　舞台
+1601,reward,報酬　褒美 / に報いる
+1602,award,を授与する / 賞
+1603,punish,を罰する
+1604,penalty,罰
+1605,capture,を捕らえる　を引きつける / 逮捕
+1606,grab,をつかむ / つかむこと
+1607,seize,をつかむ
+1608,arrest,を逮捕する / 逮捕
+1609,correct,正しい　適切な / を訂正する
+1610,editor,編集者
+1611,persist,固執する
+1612,moreover,さらに
+1613,average,平均的な / 平均
+1614,maximum,最大限の
+1615,minimum,最低限の
+1616,reserve,蓄え　遠慮 / 保護区 / を予約する
+1617,stock,蓄え　在庫　株式 / を貯蔵している
+1618,store,を蓄える / 店
+1619,last,長く　長持ちする / 最後の　この前の
+1620,technology,科学技術
+1621,global,世界的な　全体的な
+1622,cheap,安い　安っぽい
+1623,ground,地面　土地　根拠
+1624,compel,～を強いる
+1625,obligation,義務　恩義
+1626,fossil,化石の
+1627,prepare,準備する
+1628,arrange,を手配する　の手はずを整える　を配列する
+1629,negotiate,交渉する
+1630,invest,投資する
+1631,solar,太陽の
+1632,nuclear,核の　原子力の
+1633,wind,風　動向 / を巻く　曲がりくねって進む
+1634,essentially,本質的に
+1635,crucial,決定的な　必要不可欠の
+1636,vital,不可欠な　生き生きした
+1637,hydrogen,水素
+1638,battery,電池
+1639,abundant,豊富な
+1640,element,要素　元素　基礎　自然の力
+1641,universe,宇宙　全世界
+1642,atom,原子
+1643,molecule,分子
+1644,steam,蒸気
+1645,crystal,結晶　水晶
+1646,cycle,周期　循環 / 自転車に乗る
+1647,hybrid,交配種　混成物 / 混成の
+1648,neglect,怠慢　軽視 / を軽視する　を怠る
+1649,link,関連 / をつなぐ
+1650,connect,をつなぐ　つながる
+1651,attach,をつける　に愛着を持たせる
+1652,hang,つるす
+1653,brief,短時間の　簡潔な
+1654,heal,治る　癒やす　癒える
+1655,recover,回復する　を取り戻す
+1656,rarely,滅多に～しない
+1657,scarce,不足して
+1658,seldom,滅多に～しない
+1659,desperate,絶望的な　たまらない　深刻な　必死の
+1660,outcome,結果
+1661,outline,概略　輪郭 / の要点をいう
+1662,output,生産高　出力
+1663,faith,信頼　確信　信仰
+1664,confidence,自信　信頼
+1665,conviction,信念　自信　有罪判決
+1666,shy,内気な
+1667,potential,可能性のある　潜在的な　可能性　潜在力
+1668,strength,強さ
+1669,elderly,年配の
+1670,reinforce,を強化する　を補強する
+1671,community,地域社会
+1672,epidemic,流行　伝染病
+1673,altogether,完全に　全く　要するに　合計して
+1674,cast,投げる　役を割り当てる / 配役
+1675,cross,横切る / 十字路　混合物
+1676,tip,先端　チップ
+1677,bound,限界　跳躍 / 束縛された
+1678,tear,を裂く　を引き剥がす
+1679,resort,訴える / 行楽地
+1680,bow,弓
+1681,spell,期間 / をつづる
+1682,log,記録する / 丸太
+1683,declare,を宣言する　を明言する
+1684,announce,を発表する
+1685,planet,惑星　地球
+1686,bat,コウモリ
+1687,bee,ミツバチ　蜂
+1688,ceiling,天井　上限
+1689,seed,種 / まく
+1690,flight,飛行
+1691,laboratory,研究室
+1692,institute,研究所　協会
+1693,constitute,を構成する
+1694,spot,点　場所 / を見つける
+1695,precisely,正確に
+1696,neat,きちんとした　的確な
+1697,military,軍隊の / 軍隊
+1698,device,装置　工夫
+1699,earthquake,地震
+1700,zone,地帯　区域
+1701,mine,鉱山　地雷
+1702,manipulate,を操る
+1703,frame,枠　骨組み　体格 / を立案する
+1704,trigger,を誘発する / 引き金　誘因
+1705,dozen,ダース
+1706,load,を積む / 積み荷
+1707,pile,積み重ね / 積み重なる
+1708,burden,重荷
+1709,permit,を許す　を可能にする
+1710,excellent,非常に優れた
+1711,noble,気高い / 貴族
+1712,lord,貴族　君主
+1713,prominent,卓越した　目立った　突き出した
+1714,system,組織　体系　方式
+1715,democracy,民主主義
+1716,devote,を捧げる
+1717,loyalty,忠誠
+1718,contribute,貢献する　寄付する　一因となる　提供する
+1719,boil,沸騰させる　を煮る
+1720,command,指揮　命令 / を見下ろす
+1721,budget,予算　経費
+1722,debt,借金
+1723,tax,税金
+1724,weapon,武器
+1725,bomb,爆弾
+1726,terrorism,テロ
+1727,awful,恐ろしい ひどい
+1728,badly,まずく　とても　ひどく
+1729,geographical,地理的な　地理学の
+1730,circle,円
+1731,somebody,誰か　名のある人
+1732,nobody,誰も～ない / 無名の人
+1733,none,誰も～ない　どれも～ない
+1734,anyway,とにかく　どうしても
+1735,anymore,もはや～できない

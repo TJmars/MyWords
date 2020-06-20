@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GEQ-T8-vJn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EuM-rc-uMG">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -16,21 +16,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Words" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ey-dq-2vc">
-                                <rect key="frame" x="112" y="106" width="151" height="42"/>
+                                <rect key="frame" x="112" y="92" width="151" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVu-ah-BKA">
-                                <rect key="frame" x="16" y="210" width="343" height="36"/>
+                                <rect key="frame" x="16" y="179" width="343" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdQ-iI-CT2">
-                                <rect key="frame" x="52" y="373" width="271" height="253"/>
+                                <rect key="frame" x="52" y="317" width="271" height="253"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txe-6w-K0r">
@@ -52,6 +52,29 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZu-pf-OId">
+                                <rect key="frame" x="0.0" y="645" width="115" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="《 ">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name=".HiraKakuInterface-W3"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="単語帳を変更">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name=".HiraKakuInterface-W3"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="goBackLoginButton:" destination="cxe-TI-8kQ" eventType="touchUpInside" id="kJE-SL-9TZ"/>
+                                    <segue destination="WN3-K2-DPu" kind="show" identifier="backLogin" id="o0u-LW-1Al"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="KBM-5r-MBS"/>
@@ -404,10 +427,11 @@
                                     <action selector="missButton:" destination="Ztn-0T-Lo1" eventType="touchUpInside" id="vM8-3z-QYk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nextボタンを押して開始" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZF-ks-XVM">
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="○ボタンを押して開始" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZF-ks-XVM">
                                 <rect key="frame" x="40" y="312" width="294" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -437,12 +461,20 @@
                                     <action selector="quitButton:" destination="Ztn-0T-Lo1" eventType="touchUpInside" id="cfb-jN-SZI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEu-kH-eFY">
+                                <rect key="frame" x="282" y="318" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="audioChangeButton:" destination="Ztn-0T-Lo1" eventType="touchUpInside" id="lXJ-vA-wAd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="R7V-bj-AOY"/>
                     </view>
                     <navigationItem key="navigationItem" id="kac-Kw-pGg"/>
                     <connections>
+                        <outlet property="audioButtonImage" destination="ZEu-kH-eFY" id="mHt-Xy-snN"/>
                         <outlet property="wordLabel" destination="JZF-ks-XVM" id="CoU-jt-cEz"/>
                     </connections>
                 </viewController>
@@ -549,20 +581,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haa-1f-loc">
-                                <rect key="frame" x="103" y="429" width="168" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haa-1f-loc">
+                                <rect key="frame" x="126" y="428" width="122" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="保存する">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                <font key="NSOriginalFont" metaFont="system" size="15"/>
-                                                <integer key="NSUnderline" value="1"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
+                                <state key="normal" backgroundImage="save"/>
                                 <connections>
                                     <action selector="addButton:" destination="v03-cG-hVq" eventType="touchUpInside" id="Bry-DL-U9r"/>
                                 </connections>
@@ -743,8 +765,9 @@
         <!--Tab Bar Controller-->
         <scene sceneID="s03-Mk-BGR">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="GEQ-T8-vJn" customClass="TabBarController" customModule="MyWords" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBar" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="GEQ-T8-vJn" customClass="TabBarController" customModule="MyWords" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="n1Z-bn-vt3"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6hw-9g-L5s">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -760,6 +783,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zmC-DP-vPZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+        <!--Start View Controller-->
+        <scene sceneID="w1u-Ad-4Me">
+            <objects>
+                <viewController id="EuM-rc-uMG" customClass="startViewController" customModule="MyWords" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F2I-xF-wlk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Xn3-Nd-Zq2"/>
+                    </view>
+                    <connections>
+                        <segue destination="WN3-K2-DPu" kind="presentation" identifier="toLogin" modalTransitionStyle="crossDissolve" id="NOv-6p-Qzv"/>
+                        <segue destination="GEQ-T8-vJn" kind="presentation" identifier="toTab" modalTransitionStyle="crossDissolve" id="Ywl-GJ-O1b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5p6-QZ-wCJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="-1364"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="1vv-gD-mQf">
+            <objects>
+                <viewController storyboardIdentifier="Login" modalPresentationStyle="fullScreen" id="WN3-K2-DPu" customClass="LoginViewController" customModule="MyWords" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l3D-ZV-v4Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXj-4I-VAg">
+                                <rect key="frame" x="46" y="146" width="282" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="単語帳1">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="word1Button:" destination="WN3-K2-DPu" eventType="touchUpInside" id="O3Q-Y2-wvn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSp-nB-7qJ">
+                                <rect key="frame" x="46" y="310" width="282" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="単語帳2">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="word2Button:" destination="WN3-K2-DPu" eventType="touchUpInside" id="Ium-ym-5OF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="xbV-0T-RD8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7oR-7Z-iiM"/>
+                    <connections>
+                        <segue destination="GEQ-T8-vJn" kind="presentation" identifier="toTabBar" modalTransitionStyle="crossDissolve" id="xui-cn-5Ab"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4JO-FO-7dz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="631" y="-625"/>
         </scene>
         <!--単語リスト-->
         <scene sceneID="Y3S-hZ-qNO">
@@ -781,6 +866,10 @@
             <point key="canvasLocation" x="1570.4000000000001" y="922.90640394088678"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="o0u-LW-1Al"/>
+        <segue reference="xui-cn-5Ab"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="No" width="91.333335876464844" height="56"/>
         <image name="Yes" width="91.333335876464844" height="56"/>
@@ -795,6 +884,7 @@
         <image name="miss4" width="176.66667175292969" height="67.333335876464844"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="reset" width="32" height="47.333332061767578"/>
+        <image name="save" width="176.66667175292969" height="50"/>
         <image name="start" width="176.66667175292969" height="58.666667938232422"/>
     </resources>
 </document>

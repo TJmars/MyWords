@@ -8,10 +8,17 @@
 
 import UIKit
 import RealmSwift
+import AVFoundation
 
 class WordListViewController: UIViewController {
     
     @IBOutlet weak var wordLabel: UILabel!
+    @IBOutlet weak var audioButtonImage: UIButton!
+    
+//    音声オンオフボタンの画像設定
+    let onImage = UIImage(named: "AudioOn")
+    let offImage = UIImage(named: "AudioOff")
+
     //    Realmクラス判別用の変数
     var x:Int = 0
     
@@ -22,17 +29,18 @@ class WordListViewController: UIViewController {
     var realmDataList: RealmDataList!
     
     var wordHistory: WordHistory!
-//   単語カウント　日英カウント
+    //   単語カウント　日英カウント
     var wordCount:Int = -1
     var EnOrJapCount = 0
     
     //    segueで受け取る開始番号
     var startNum = -1
     
-//    履歴用変数
+    //    履歴用変数
     var historyNum = 0
     
-    
+    //    音声オンオフ
+    var audioNum = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +49,6 @@ class WordListViewController: UIViewController {
         //        履歴をセットする
         if let his = realm.objects(WordHistory.self).first {
             wordHistory = his
-            
         } else {
             wordHistory = WordHistory()
         }
@@ -85,6 +92,9 @@ class WordListViewController: UIViewController {
             }
         }
         
+//        音声画像セット
+        audioButtonImage.setImage(onImage, for: .normal)
+        
     }
     
     //    次へボタン
@@ -97,7 +107,7 @@ class WordListViewController: UIViewController {
                 self.realm.add(self.realmDataList, update: .modified)
                 
             }
-           
+            
         }
         
         if wordCount == dataListArray.count - 1 {
@@ -110,9 +120,9 @@ class WordListViewController: UIViewController {
             historyA()
         } else {
             wordCount = -1
-            wordLabel.text = "Nextボタンを押して開始"
-          historyB()
-           reachLast()
+            wordLabel.text = "○ボタンを押して開始"
+            historyB()
+            reachLast()
         }
         EnOrJapCount = 0
         if wordCount >= 0 {
@@ -170,9 +180,9 @@ class WordListViewController: UIViewController {
                 historyA()
             } else {
                 wordCount = -1
-              wordLabel.text = "Nextボタンを押して開始"
+                wordLabel.text = "○ボタンを押して開始"
                 historyB()
-               reachLast()
+                reachLast()
             }
             EnOrJapCount = 0
             if wordCount >= 0 {
@@ -195,6 +205,19 @@ class WordListViewController: UIViewController {
         }
     }
     
+    //    音声のオンオフ
+    
+    @IBAction func audioChangeButton(_ sender: Any) {
+        
+        if audioNum == 0 {
+            audioNum = 1
+            audioButtonImage.setImage(offImage, for: .normal)
+        } else {
+            audioNum = 0
+            audioButtonImage.setImage(onImage, for: .normal)
+        }
+    }
+    
     
     
     
@@ -209,6 +232,12 @@ class WordListViewController: UIViewController {
         
         if EnOrJapCount == 0 {
             wordLabel.text = "\(id):\(english)"
+            
+            if audioNum == 0 {
+                let synthesizer = AVSpeechSynthesizer()
+                let utterance = AVSpeechUtterance(string: english)
+                synthesizer.speak(utterance)
+            }
         } else {
             wordLabel.text = "\(id):\(japanese)"
         }
@@ -237,28 +266,28 @@ class WordListViewController: UIViewController {
     }
     
     func historyB() {
-           try! realm.write {
-               
-               switch x {
-               case 0:
-                   wordHistory.allHis = 0
-               case 1:
-                   wordHistory.miss1His = 0
-               case 2:
-                   wordHistory.miss2His = 0
-               case 3:
-                   wordHistory.miss3His = 0
-               case 4:
-                   wordHistory.miss4His = 0
-               default:
-                   wordHistory.allHis = 0
-               }
-               realm.add(wordHistory)
-           }
-       }
+        try! realm.write {
+            
+            switch x {
+            case 0:
+                wordHistory.allHis = 0
+            case 1:
+                wordHistory.miss1His = 0
+            case 2:
+                wordHistory.miss2His = 0
+            case 3:
+                wordHistory.miss3His = 0
+            case 4:
+                wordHistory.miss4His = 0
+            default:
+                wordHistory.allHis = 0
+            }
+            realm.add(wordHistory)
+        }
+    }
     
     
-//    ラストまで行った時配列を履歴の制限がない状態に戻す
+    //    ラストまで行った時配列を履歴の制限がない状態に戻す
     func reachLast() {
         if startNum == -1 {
             switch x {
