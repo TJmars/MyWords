@@ -13,6 +13,7 @@ import AVFoundation
 class WordListViewController: UIViewController {
     
     @IBOutlet weak var wordLabel: UILabel!
+    @IBOutlet weak var wordIdLabel: UILabel!
     @IBOutlet weak var audioButtonImage: UIButton!
     
 //    音声オンオフボタンの画像設定
@@ -52,24 +53,63 @@ class WordListViewController: UIViewController {
         } else {
             wordHistory = WordHistory()
         }
+        
+//        音声番号の設定
+        audioNum = wordHistory.audio
+        
         //        xを元にどのボタンで遷移してきたか判別
         if startNum == -1 {
             switch x {
             case 0:
-                historyNum = wordHistory.allHis
-                dataListArray = try! Realm().objects(RealmDataList.self).filter("id >= \(historyNum)")
+                dataListArray = try! Realm().objects(RealmDataList.self)
+                if dataListArray.count == wordHistory.allHisCount {
+                    historyNum = wordHistory.allHis
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("id >= \(historyNum)")
+                } else {
+                    historyNum = wordHistory.allHisCha
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("id >= \(historyNum)")
+                }
             case 1:
-                historyNum = wordHistory.miss1His
-                dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0 && id >= \(historyNum)")
+                dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0")
+                if dataListArray.count == wordHistory.miss1HisCount {
+                    historyNum = wordHistory.miss1His
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0 && id >= \(historyNum)")
+                    print("上")
+                    print("dataListCount\(dataListArray.count)")
+                    print(historyNum)
+                } else {
+                    historyNum = wordHistory.miss1HisCha
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0 && id >= \(historyNum)")
+                    print("下")
+                    print("dataListCount\(dataListArray.count)")
+                }
             case 2:
-                historyNum = wordHistory.miss2His
-                dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0 && id >= \(historyNum)")
+                dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0")
+                if dataListArray.count == wordHistory.miss2HisCount {
+                    historyNum = wordHistory.miss2His
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0 && id >= \(historyNum)")
+                } else {
+                    historyNum = wordHistory.miss2HisCha
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0 && id >= \(historyNum)")
+                }
             case 3:
-                historyNum = wordHistory.miss3His
-                dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss3 != 0 && id >= \(historyNum)")
+                dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss3 != 0")
+                if dataListArray.count == wordHistory.miss3HisCount {
+                    historyNum = wordHistory.miss3His
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss3 != 0 && id >= \(historyNum)")
+                } else {
+                    historyNum = wordHistory.miss3HisCha
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss3 != 0 && id >= \(historyNum)")
+                }
             case 4:
-                historyNum = wordHistory.miss4His
-                dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0 && id >= \(historyNum)")
+                dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0")
+                if dataListArray.count == wordHistory.miss4HisCount {
+                    historyNum = wordHistory.miss4His
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0 && id >= \(historyNum)")
+                } else {
+                    historyNum = wordHistory.miss4HisCha
+                    dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0 && id >= \(historyNum)")
+                }
             default:
                 dataListArray = try! Realm().objects(RealmDataList.self)
             }
@@ -92,8 +132,15 @@ class WordListViewController: UIViewController {
             }
         }
         
-//        音声画像セット
-        audioButtonImage.setImage(onImage, for: .normal)
+        //        音声画像セット
+        
+        if audioNum == 0 {
+            audioButtonImage.setImage(onImage, for: .normal)
+        } else {
+            audioButtonImage.setImage(offImage, for: .normal)
+        }
+        
+        
         
     }
     
@@ -121,6 +168,7 @@ class WordListViewController: UIViewController {
         } else {
             wordCount = -1
             wordLabel.text = "○ボタンを押して開始"
+            wordIdLabel.text = ""
             historyB()
             reachLast()
         }
@@ -181,6 +229,7 @@ class WordListViewController: UIViewController {
             } else {
                 wordCount = -1
                 wordLabel.text = "○ボタンを押して開始"
+                wordIdLabel.text = ""
                 historyB()
                 reachLast()
             }
@@ -231,7 +280,8 @@ class WordListViewController: UIViewController {
         let id = words.id
         
         if EnOrJapCount == 0 {
-            wordLabel.text = "\(id):\(english)"
+            wordLabel.text = english
+            wordIdLabel.text = "\(id)"
             
             if audioNum == 0 {
                 let synthesizer = AVSpeechSynthesizer()
@@ -239,7 +289,8 @@ class WordListViewController: UIViewController {
                 synthesizer.speak(utterance)
             }
         } else {
-            wordLabel.text = "\(id):\(japanese)"
+            wordLabel.text = japanese
+            wordIdLabel.text = "\(id)"
         }
     }
     
@@ -250,16 +301,22 @@ class WordListViewController: UIViewController {
             switch x {
             case 0:
                 wordHistory.allHis = realmDataList.id
+                wordHistory.allHisCha = realmDataList.id
             case 1:
                 wordHistory.miss1His = realmDataList.id
+                wordHistory.miss1HisCha = realmDataList.id
             case 2:
                 wordHistory.miss2His = realmDataList.id
+                wordHistory.miss2HisCha = realmDataList.id
             case 3:
                 wordHistory.miss3His = realmDataList.id
+                wordHistory.miss3HisCha = realmDataList.id
             case 4:
                 wordHistory.miss4His = realmDataList.id
+                wordHistory.miss4HisCha = realmDataList.id
             default:
                 wordHistory.allHis = realmDataList.id
+                wordHistory.allHisCha = realmDataList.id
             }
             realm.add(wordHistory)
         }
@@ -320,6 +377,26 @@ class WordListViewController: UIViewController {
         self.wordCount = -1
         self.EnOrJapCount = 0
         self.startNum = 0
+        
+        try! realm.write {
+            switch x {
+            case 0:
+                wordHistory.allHisCount = try! Realm().objects(RealmDataList.self).count
+            case 1:
+                wordHistory.miss1HisCount = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0").count
+            case 2:
+                wordHistory.miss2HisCount = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0").count
+            case 3:
+                wordHistory.miss3HisCount = try! Realm().objects(RealmDataList.self).filter("Miss3 != 0").count
+            case 4:
+                wordHistory.miss4HisCount = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0").count
+            default:
+                wordHistory.allHisCount = try! Realm().objects(RealmDataList.self).count
+            }
+            wordHistory.audio = audioNum
+            realm.add(wordHistory)
+        }
+       
         self.dismiss(animated: true, completion: nil)
     }
     

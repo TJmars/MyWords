@@ -73,7 +73,7 @@ class CalendarViewController: UIViewController,UITableViewDelegate,UITableViewDa
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let data = dataListArray[indexPath.row]
-        cell.textLabel?.text = "\(data.id):\(data.English)"
+        cell.textLabel?.text = "\(data.id): \(data.English)"
         cell.detailTextLabel?.text = data.Japanese
         
         return cell

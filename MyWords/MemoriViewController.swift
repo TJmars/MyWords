@@ -9,7 +9,7 @@
 import UIKit
 import RealmSwift
 
-class MemoriViewController: UIViewController {
+class MemoriViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var numTextField: UITextField!
     
@@ -24,6 +24,7 @@ class MemoriViewController: UIViewController {
     let realm = try! Realm()
     var dataListArray = try! Realm().objects(RealmDataList.self)
     var realmDataList: RealmDataList!
+    var wordHistory: WordHistory!
     //    segueの判別用変数 WordTextViewControllerへ渡すXの値を決めるための変数
     var segueNum = 0
     
@@ -36,7 +37,35 @@ class MemoriViewController: UIViewController {
         
         let tapGesture:  UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyBoard))
         self.view.addGestureRecognizer(tapGesture)
+        
+//        wordHistoryの初期値
+        if let his = realm.objects(WordHistory.self).first {
+            wordHistory = his
+        } else {
+            wordHistory = WordHistory()
+        }
+        
+        // ツールバー生成
+              let toolBar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 320, height: 40))
+              // スタイルを設定
+              toolBar.barStyle = UIBarStyle.default
+              // 画面幅に合わせてサイズを変更
+              toolBar.sizeToFit()
+              // 閉じるボタンを右に配置するためのスペース?
+              let spacer = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: self, action: nil)
+              // 閉じるボタン
+        let commitButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.done, target: self, action: #selector(self.commitButtonTapped))
+              // スペース、閉じるボタンを右側に配置
+              toolBar.items = [spacer, commitButton]
+              // textViewのキーボードにツールバーを設定
+              numTextField.inputAccessoryView = toolBar
+        
     }
+    
+    @objc func commitButtonTapped() {
+        self.view.endEditing(true)
+    }
+
     
     override func viewWillAppear(_ animated: Bool) {
         let dataList0 = try! Realm().objects(RealmDataList.self)
@@ -51,6 +80,13 @@ class MemoriViewController: UIViewController {
         miss4Label.text = "\(dataList4.count)"
         
         numTextField.text = ""
+        
+        //        wordHistoryの初期値
+        if let his = realm.objects(WordHistory.self).first {
+            wordHistory = his
+        } else {
+            wordHistory = WordHistory()
+        }
         
     }
     
@@ -87,6 +123,8 @@ class MemoriViewController: UIViewController {
     }
     
     @IBAction func miss1Button(_ sender: Any) {
+        
+       
         dataListArray = try! Realm().objects(RealmDataList.self)
         if numTextField.text != "" {
             let rangeNum = Int(numTextField.text!)!
@@ -232,11 +270,17 @@ class MemoriViewController: UIViewController {
                 let data = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0")
                 
                 self.miss1Label.text = "\(data.count)"
+                
+                self.wordHistory.miss1His = 0
+                self.wordHistory.miss1HisCha = 0
+                self.realm.add(self.wordHistory)
+                
             }
             
         }))
         
         self.present(dialog, animated: true, completion: nil)
+        
     }
     
     @IBAction func miss2ResetButton(_ sender: Any) {
@@ -249,6 +293,10 @@ class MemoriViewController: UIViewController {
                 let data = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0")
                 
                 self.miss2Label.text = "\(data.count)"
+                
+                self.wordHistory.miss2His = 0
+                self.wordHistory.miss2HisCha = 0
+                self.realm.add(self.wordHistory)
             }
             
         }))
@@ -266,6 +314,10 @@ class MemoriViewController: UIViewController {
                 let data = try! Realm().objects(RealmDataList.self).filter("Miss3 != 0")
                 
                 self.miss3Label.text = "\(data.count)"
+                
+                self.wordHistory.miss3His = 0
+                self.wordHistory.miss3HisCha = 0
+                self.realm.add(self.wordHistory)
             }
             
         }))
@@ -283,6 +335,10 @@ class MemoriViewController: UIViewController {
                 let data = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0")
                 
                 self.miss4Label.text = "\(data.count)"
+                
+                self.wordHistory.miss4His = 0
+                self.wordHistory.miss4HisCha = 0
+                self.realm.add(self.wordHistory)
             }
             
         }))

@@ -24,6 +24,11 @@
 		1848E4A924790160008E70BF /* WordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E4A824790160008E70BF /* WordListViewController.swift */; };
 		1848E4AF247A0F56008E70BF /* dataList.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1848E4AE247A0F56008E70BF /* dataList.csv */; };
 		1848E4B1247A1931008E70BF /* RealmDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E4B0247A1931008E70BF /* RealmDataList.swift */; };
+		185527FF24A238BF003EE0D1 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 185527FE24A238BF003EE0D1 /* 5.json */; };
+		189B866B24A1D38000AB3B84 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 189B866A24A1D37F00AB3B84 /* 1.json */; };
+		189B866D24A1E07900AB3B84 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 189B866C24A1E07900AB3B84 /* 2.json */; };
+		189B866F24A1E08300AB3B84 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 189B866E24A1E08300AB3B84 /* 3.json */; };
+		189B867124A1E08A00AB3B84 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 189B867024A1E08A00AB3B84 /* 4.json */; };
 		18CF1AAC249C853C00E13DBA /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF1AAB249C853C00E13DBA /* startViewController.swift */; };
 		18CF1AB4249C9FD300E13DBA /* dataList2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 18CF1AB3249C9FD300E13DBA /* dataList2.csv */; };
 		704C8196BB5A296F516FC659 /* Pods_MyWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CC633A87B7C4FCBE84FD4 /* Pods_MyWords.framework */; };
@@ -50,6 +55,11 @@
 		1848E4A824790160008E70BF /* WordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListViewController.swift; sourceTree = "<group>"; };
 		1848E4AE247A0F56008E70BF /* dataList.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataList.csv; sourceTree = "<group>"; };
 		1848E4B0247A1931008E70BF /* RealmDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataList.swift; sourceTree = "<group>"; };
+		185527FE24A238BF003EE0D1 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
+		189B866A24A1D37F00AB3B84 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		189B866C24A1E07900AB3B84 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		189B866E24A1E08300AB3B84 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		189B867024A1E08A00AB3B84 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		18CF1AAB249C853C00E13DBA /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
 		18CF1AB3249C9FD300E13DBA /* dataList2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataList2.csv; sourceTree = "<group>"; };
 		7036247C4FDE39C884BE2D4D /* Pods-MyWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWords.release.xcconfig"; path = "Target Support Files/Pods-MyWords/Pods-MyWords.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +117,11 @@
 				18CF1AAB249C853C00E13DBA /* startViewController.swift */,
 				1848E4902478ECA6008E70BF /* Main.storyboard */,
 				1848E4932478ECA7008E70BF /* Assets.xcassets */,
+				189B866A24A1D37F00AB3B84 /* 1.json */,
+				189B866C24A1E07900AB3B84 /* 2.json */,
+				189B866E24A1E08300AB3B84 /* 3.json */,
+				189B867024A1E08A00AB3B84 /* 4.json */,
+				185527FE24A238BF003EE0D1 /* 5.json */,
 				1848E4952478ECA7008E70BF /* LaunchScreen.storyboard */,
 				1848E4982478ECA7008E70BF /* Info.plist */,
 			);
@@ -191,8 +206,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1848E4AF247A0F56008E70BF /* dataList.csv in Resources */,
+				189B867124A1E08A00AB3B84 /* 4.json in Resources */,
+				189B866F24A1E08300AB3B84 /* 3.json in Resources */,
+				189B866B24A1D38000AB3B84 /* 1.json in Resources */,
 				18CF1AB4249C9FD300E13DBA /* dataList2.csv in Resources */,
+				185527FF24A238BF003EE0D1 /* 5.json in Resources */,
 				1848E4972478ECA7008E70BF /* LaunchScreen.storyboard in Resources */,
+				189B866D24A1E07900AB3B84 /* 2.json in Resources */,
 				1848E4942478ECA7008E70BF /* Assets.xcassets in Resources */,
 				1848E4922478ECA6008E70BF /* Main.storyboard in Resources */,
 			);

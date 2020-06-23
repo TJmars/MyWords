@@ -16,6 +16,8 @@ class NowTestViewController: UIViewController {
     var toNum = 0
     
     @IBOutlet weak var wordLabel: UILabel!
+    @IBOutlet weak var testCountLabel: UILabel!
+    
     
     //    Realmのインスタンス化
     let realm = try! Realm()
@@ -49,8 +51,7 @@ class NowTestViewController: UIViewController {
             appDetail = AppDetail()
         }
         
-        print(appDetail.correctTest)
-        print(appDetail.tryTestCount)
+        testCountLabel.text = "1/20"
       
     }
     
@@ -67,6 +68,9 @@ class NowTestViewController: UIViewController {
         if wordAppCount < 21 {
             wordApp()
             wordIndexArray.removeFirst()
+            
+//            残り単語数の更新
+            testCountLabel.text = "\(wordAppCount)/20"
             
 //           正答ならカウント
             try! realm.write {
@@ -94,6 +98,9 @@ class NowTestViewController: UIViewController {
             if wordAppCount < 21 {
                 wordApp()
                 wordIndexArray.removeFirst()
+                
+//                残り単語数の更新
+                testCountLabel.text = "\(wordAppCount)/20"
             } else {
                 
 //               挑戦回数をカウント
@@ -164,6 +171,7 @@ class NowTestViewController: UIViewController {
             self.tapIndex = 0
             self.wordAppCount = 0
             self.currentCount = 0
+            self.testCountLabel.text = "1/20"
             
             self.wordIndexArray.append(contentsOf: 0...self.dataListArray.count - 1)
             self.wordIndexArray.shuffle()

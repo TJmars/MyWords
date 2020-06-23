@@ -27,7 +27,7 @@ class AddWordViewController: UIViewController {
         let tapGesture:  UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyBoard))
         self.view.addGestureRecognizer(tapGesture)
         
-        NumberLabel.text = "\(dataListArray.count)"
+        NumberLabel.text = "No.\(dataListArray.count)"
         
     }
     
