@@ -9,12 +9,14 @@
 import UIKit
 import RealmSwift
 import AVFoundation
+import EMTNeumorphicView
 
 class WordListViewController: UIViewController {
     
     @IBOutlet weak var wordLabel: UILabel!
     @IBOutlet weak var wordIdLabel: UILabel!
     @IBOutlet weak var audioButtonImage: UIButton!
+    @IBOutlet weak var tapLabel: UILabel!
     
 //    音声オンオフボタンの画像設定
     let onImage = UIImage(named: "AudioOn")
@@ -45,6 +47,9 @@ class WordListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
+       
         
         
         //        履歴をセットする
@@ -146,6 +151,8 @@ class WordListViewController: UIViewController {
     
     //    次へボタン
     @IBAction func nextButton(_ sender: Any) {
+        
+        tapLabel.text = ""
         
         if wordCount >= 0 {
             realmDataList = dataListArray[wordCount]

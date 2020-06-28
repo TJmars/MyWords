@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "miss2.png",
+      "filename" : "memory.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "miss2-1.png",
+      "filename" : "memory-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "miss2-2.png",
+      "filename" : "memory-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

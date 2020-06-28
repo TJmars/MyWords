@@ -8,6 +8,7 @@
 
 import UIKit
 import RealmSwift
+import EMTNeumorphicView
 
 
 class NowTestViewController: UIViewController {
@@ -17,6 +18,7 @@ class NowTestViewController: UIViewController {
     
     @IBOutlet weak var wordLabel: UILabel!
     @IBOutlet weak var testCountLabel: UILabel!
+    @IBOutlet weak var tapLabel: UILabel!
     
     
     //    Realmのインスタンス化
@@ -53,6 +55,8 @@ class NowTestViewController: UIViewController {
         
         testCountLabel.text = "1/20"
       
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -62,6 +66,7 @@ class NowTestViewController: UIViewController {
     }
     
     @IBAction func correctButton(_ sender: Any) {
+        tapLabel.text = ""
         wordAppCount += 1
         currentCount += 1
         EnOrJapCount = 0

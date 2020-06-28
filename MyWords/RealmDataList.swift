@@ -32,7 +32,8 @@ class AppDetail: Object {
     
     @objc dynamic var tryTestCount = 0
     @objc dynamic var correctTest = 0
-    @objc dynamic var memoText =  ""
+    @objc dynamic var animationCount = 0
+    
 }
 
 //履歴

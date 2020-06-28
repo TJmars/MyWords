@@ -8,6 +8,8 @@
 
 import UIKit
 import RealmSwift
+import Lottie
+
 
 class MemoriViewController: UIViewController, UITextFieldDelegate {
     
@@ -20,6 +22,8 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var miss4Label: UILabel!
     
     
+    
+    
     //    Realmのインスタンス化
     let realm = try! Realm()
     var dataListArray = try! Realm().objects(RealmDataList.self)
@@ -28,9 +32,21 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
     //    segueの判別用変数 WordTextViewControllerへ渡すXの値を決めるための変数
     var segueNum = 0
     
+//    アニメーション
+     var animationView1:AnimationView = AnimationView()
+     var animationView2:AnimationView = AnimationView()
+     var animationView3:AnimationView = AnimationView()
+     var animationView4:AnimationView = AnimationView()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+     
+        animationFunc1()
+        animationFunc2()
+        animationFunc3()
+        animationFunc4()
         
         
         // Do any additional setup after loading the view.
@@ -59,6 +75,8 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
               toolBar.items = [spacer, commitButton]
               // textViewのキーボードにツールバーを設定
               numTextField.inputAccessoryView = toolBar
+        
+
         
     }
     
@@ -96,6 +114,7 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
      またボタンが押された直後に、他のボタンを押すことで変更されたdataListを初期値(全単語収録されたもの)に戻している
      */
     @IBAction func allButton(_ sender: Any) {
+        
         dataListArray = try! Realm().objects(RealmDataList.self)
         if numTextField.text != "" {
             let rangeNum = Int(numTextField.text!)!
@@ -122,37 +141,38 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    
     @IBAction func miss1Button(_ sender: Any) {
         
-       
         dataListArray = try! Realm().objects(RealmDataList.self)
-        if numTextField.text != "" {
-            let rangeNum = Int(numTextField.text!)!
-            if rangeNum >= 0 && rangeNum < dataListArray.count {
-                dataListArray = try! Realm().objects(RealmDataList.self).filter("id >= \(rangeNum) && Miss1 != 0")
-                if dataListArray.count != 0 {
-                    segueNum = 1
-                    self.performSegue(withIdentifier: "toWordList", sender: nil)
-                } else {
-                    dialogA()
-                }
-            } else {
-                dialogA()
-            }
-            
-        } else {
-            dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0")
-            if dataListArray.count != 0 {
-                segueNum = 1
-                self.performSegue(withIdentifier: "toWordList", sender: nil)
-            } else {
-                dialogB()
-            }
-        }
-        
+               if numTextField.text != "" {
+                   let rangeNum = Int(numTextField.text!)!
+                   if rangeNum >= 0 && rangeNum < dataListArray.count {
+                       dataListArray = try! Realm().objects(RealmDataList.self).filter("id >= \(rangeNum) && Miss1 != 0")
+                       if dataListArray.count != 0 {
+                           segueNum = 1
+                           self.performSegue(withIdentifier: "toWordList", sender: nil)
+                       } else {
+                           dialogA()
+                       }
+                   } else {
+                       dialogA()
+                   }
+                   
+               } else {
+                   dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0")
+                   if dataListArray.count != 0 {
+                       segueNum = 1
+                       self.performSegue(withIdentifier: "toWordList", sender: nil)
+                   } else {
+                       dialogB()
+                   }
+               }
     }
     
+    
     @IBAction func miss2Button(_ sender: Any) {
+        
         dataListArray = try! Realm().objects(RealmDataList.self)
         if numTextField.text != "" {
             let rangeNum = Int(numTextField.text!)!
@@ -179,7 +199,9 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    
     @IBAction func miss3Button(_ sender: Any) {
+        
         dataListArray = try! Realm().objects(RealmDataList.self)
         if numTextField.text != "" {
             let rangeNum = Int(numTextField.text!)!
@@ -206,7 +228,9 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    
     @IBAction func miss4Button(_ sender: Any) {
+        
         dataListArray = try! Realm().objects(RealmDataList.self)
         if numTextField.text != "" {
             let rangeNum = Int(numTextField.text!)!
@@ -234,8 +258,8 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
                 dialogB()
             }
         }
-        
     }
+    
     
     //    画面遷移時に呼ばれる　xを渡すことでどのボタンで遷移したか判別する
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -262,31 +286,33 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func miss1ResetButton(_ sender: Any) {
         let dialog = UIAlertController(title: "リセット", message: "このランクに登録された単語をリセットします(他のランクの単語は残ります)", preferredStyle: .alert)
-        dialog.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
-        dialog.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
-            self.dataListArray = try! Realm().objects(RealmDataList.self)
-            try! self.realm.write {
-                self.dataListArray.setValue(0, forKey: "Miss1")
-                let data = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0")
-                
-                self.miss1Label.text = "\(data.count)"
-                
-                self.wordHistory.miss1His = 0
-                self.wordHistory.miss1HisCha = 0
-                self.realm.add(self.wordHistory)
-                
-            }
-            
-        }))
-        
-        self.present(dialog, animated: true, completion: nil)
-        
+               dialog.addAction(UIAlertAction(title: "キャンセル", style: .default, handler: nil))
+               dialog.addAction(UIAlertAction(title: "削除", style: .default, handler: {action in
+                   self.dataListArray = try! Realm().objects(RealmDataList.self)
+                   try! self.realm.write {
+                       self.dataListArray.setValue(0, forKey: "Miss1")
+                       let data = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0")
+                       
+                       self.miss1Label.text = "\(data.count)"
+                       
+                       self.wordHistory.miss1His = 0
+                       self.wordHistory.miss1HisCha = 0
+                       self.realm.add(self.wordHistory)
+                       
+                   }
+                   
+               }))
+               
+               self.present(dialog, animated: true, completion: nil)
+               
     }
+    
+    
     
     @IBAction func miss2ResetButton(_ sender: Any) {
         let dialog = UIAlertController(title: "リセット", message: "このランクに登録された単語をリセットします(他のランクの単語は残ります)", preferredStyle: .alert)
-        dialog.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
-        dialog.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
+        dialog.addAction(UIAlertAction(title: "キャンセル", style: .default, handler: nil))
+        dialog.addAction(UIAlertAction(title: "削除", style: .default, handler: {action in
             self.dataListArray = try! Realm().objects(RealmDataList.self)
             try! self.realm.write {
                 self.dataListArray.setValue(0, forKey: "Miss2")
@@ -306,8 +332,8 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func miss3ResetButton(_ sender: Any) {
         let dialog = UIAlertController(title: "リセット", message: "このランクに登録された単語をリセットします(他のランクの単語は残ります)", preferredStyle: .alert)
-        dialog.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
-        dialog.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
+        dialog.addAction(UIAlertAction(title: "キャンセル", style: .default, handler: nil))
+        dialog.addAction(UIAlertAction(title: "削除", style: .default, handler: {action in
             self.dataListArray = try! Realm().objects(RealmDataList.self)
             try! self.realm.write {
                 self.dataListArray.setValue(0, forKey: "Miss3")
@@ -325,10 +351,11 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
         
     }
     
+   
     @IBAction func miss4ResetButton(_ sender: Any) {
         let dialog = UIAlertController(title: "リセット", message: "このランクに登録された単語をリセットします(他のランクの単語は残ります)", preferredStyle: .alert)
-        dialog.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
-        dialog.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
+        dialog.addAction(UIAlertAction(title: "キャンセル", style: .default, handler: nil))
+        dialog.addAction(UIAlertAction(title: "削除", style: .default, handler: {action in
             self.dataListArray = try! Realm().objects(RealmDataList.self)
             try! self.realm.write {
                 self.dataListArray.setValue(0, forKey: "Miss4")
@@ -343,9 +370,10 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
             
         }))
         self.present(dialog, animated: true, completion: nil)
-        
-        
+
     }
+    
+   
     //    ダイアログの関数
     func dialogA() {
         let dialog = UIAlertController(title: "登録されている単語がありません", message: "開始番号を変更するか、他のランクに挑戦してください。", preferredStyle: .alert)
@@ -363,6 +391,55 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
     
     @objc func dismissKeyBoard() {
         view.endEditing(true)
+    }
+    
+//    アニメーション
+    func animationFunc1() {
+        let animation = Animation.named("7")
+        animationView1.frame = CGRect(x: 0, y: 0, width: miss1Label.frame.size.width, height: miss1Label.frame.size.height)
+        animationView1.isUserInteractionEnabled = false
+        animationView1.animation = animation
+        animationView1.contentMode = .scaleAspectFill
+        animationView1.loopMode = .loop
+        animationView1.backgroundColor = .clear
+        miss1Label.addSubview(animationView1)
+        animationView1.play()
+    }
+    
+    func animationFunc2() {
+        let animation = Animation.named("7")
+        animationView2.frame = CGRect(x: 0, y: 0, width: miss2Label.frame.size.width, height: miss2Label.frame.size.height)
+        animationView2.isUserInteractionEnabled = false
+        animationView2.animation = animation
+        animationView2.contentMode = .scaleAspectFill
+        animationView2.loopMode = .loop
+        animationView2.backgroundColor = .clear
+        miss2Label.addSubview(animationView2)
+        animationView2.play()
+    }
+    
+    func animationFunc3() {
+        let animation = Animation.named("7")
+        animationView3.frame = CGRect(x: 0, y: 0, width: miss3Label.frame.size.width, height: miss3Label.frame.size.height)
+        animationView3.isUserInteractionEnabled = false
+        animationView3.animation = animation
+        animationView3.contentMode = .scaleAspectFill
+        animationView3.loopMode = .loop
+        animationView3.backgroundColor = .clear
+        miss3Label.addSubview(animationView3)
+        animationView3.play()
+    }
+    
+    func animationFunc4() {
+        let animation = Animation.named("7")
+        animationView4.frame = CGRect(x: 0, y: 0, width: miss4Label.frame.size.width, height: miss4Label.frame.size.height)
+        animationView4.isUserInteractionEnabled = false
+        animationView4.animation = animation
+        animationView4.contentMode = .scaleAspectFill
+        animationView4.loopMode = .loop
+        animationView4.backgroundColor = .clear
+        miss4Label.addSubview(animationView4)
+        animationView4.play()
     }
     
     

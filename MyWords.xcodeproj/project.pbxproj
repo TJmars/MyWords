@@ -10,6 +10,7 @@
 		18153AEA24991D880059CBC6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18153AE924991D880059CBC6 /* LoginViewController.swift */; };
 		181CEF5F248A24C1002198E1 /* AddWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CEF5E248A24C1002198E1 /* AddWordViewController.swift */; };
 		182DA7EE2484B6CF0043A3B5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DA7ED2484B6CF0043A3B5 /* TabBarController.swift */; };
+		182DF35E24A4CE6F00022330 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 182DF35D24A4CE6F00022330 /* 6.json */; };
 		183EB0A2248DFFD5008E2332 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EB0A1248DFFD5008E2332 /* DetailViewController.swift */; };
 		18485A51248333D300AF2E64 /* NowTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18485A50248333D300AF2E64 /* NowTestViewController.swift */; };
 		1848E48B2478ECA6008E70BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E48A2478ECA6008E70BF /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 		189B867124A1E08A00AB3B84 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 189B867024A1E08A00AB3B84 /* 4.json */; };
 		18CF1AAC249C853C00E13DBA /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF1AAB249C853C00E13DBA /* startViewController.swift */; };
 		18CF1AB4249C9FD300E13DBA /* dataList2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 18CF1AB3249C9FD300E13DBA /* dataList2.csv */; };
+		18FE18F624A7911E00D85B2B /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 18FE18F524A7911D00D85B2B /* 7.json */; };
 		704C8196BB5A296F516FC659 /* Pods_MyWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CC633A87B7C4FCBE84FD4 /* Pods_MyWords.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,7 @@
 		18153AE924991D880059CBC6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		181CEF5E248A24C1002198E1 /* AddWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewController.swift; sourceTree = "<group>"; };
 		182DA7ED2484B6CF0043A3B5 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		182DF35D24A4CE6F00022330 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
 		183EB0A1248DFFD5008E2332 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		18485A50248333D300AF2E64 /* NowTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTestViewController.swift; sourceTree = "<group>"; };
 		1848E4872478ECA6008E70BF /* MyWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +65,7 @@
 		189B867024A1E08A00AB3B84 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		18CF1AAB249C853C00E13DBA /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
 		18CF1AB3249C9FD300E13DBA /* dataList2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataList2.csv; sourceTree = "<group>"; };
+		18FE18F524A7911D00D85B2B /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7.json; sourceTree = "<group>"; };
 		7036247C4FDE39C884BE2D4D /* Pods-MyWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWords.release.xcconfig"; path = "Target Support Files/Pods-MyWords/Pods-MyWords.release.xcconfig"; sourceTree = "<group>"; };
 		CD1CC633A87B7C4FCBE84FD4 /* Pods_MyWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,6 +126,8 @@
 				189B866E24A1E08300AB3B84 /* 3.json */,
 				189B867024A1E08A00AB3B84 /* 4.json */,
 				185527FE24A238BF003EE0D1 /* 5.json */,
+				182DF35D24A4CE6F00022330 /* 6.json */,
+				18FE18F524A7911D00D85B2B /* 7.json */,
 				1848E4952478ECA7008E70BF /* LaunchScreen.storyboard */,
 				1848E4982478ECA7008E70BF /* Info.plist */,
 			);
@@ -206,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1848E4AF247A0F56008E70BF /* dataList.csv in Resources */,
+				18FE18F624A7911E00D85B2B /* 7.json in Resources */,
 				189B867124A1E08A00AB3B84 /* 4.json in Resources */,
 				189B866F24A1E08300AB3B84 /* 3.json in Resources */,
 				189B866B24A1D38000AB3B84 /* 1.json in Resources */,
@@ -215,6 +222,7 @@
 				189B866D24A1E07900AB3B84 /* 2.json in Resources */,
 				1848E4942478ECA7008E70BF /* Assets.xcassets in Resources */,
 				1848E4922478ECA6008E70BF /* Main.storyboard in Resources */,
+				182DF35E24A4CE6F00022330 /* 6.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
