@@ -42,7 +42,7 @@ class NowTestViewController: UIViewController {
         
         
         dataListArray = try! Realm().objects(RealmDataList.self).filter("id >= \(fromNum) && id <= \(toNum)")
-        print(dataListArray.count)
+        
         wordIndexArray.append(contentsOf: 0...dataListArray.count - 1)
         wordIndexArray.shuffle()
         

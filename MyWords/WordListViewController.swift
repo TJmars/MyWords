@@ -21,6 +21,9 @@ class WordListViewController: UIViewController {
 //    音声オンオフボタンの画像設定
     let onImage = UIImage(named: "AudioOn")
     let offImage = UIImage(named: "AudioOff")
+    
+//    意味のない変数
+    var noMean = 0
 
     //    Realmクラス判別用の変数
     var x:Int = 0
@@ -79,14 +82,12 @@ class WordListViewController: UIViewController {
                 if dataListArray.count == wordHistory.miss1HisCount {
                     historyNum = wordHistory.miss1His
                     dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0 && id >= \(historyNum)")
-                    print("上")
-                    print("dataListCount\(dataListArray.count)")
-                    print(historyNum)
+                   
+                   
                 } else {
                     historyNum = wordHistory.miss1HisCha
                     dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0 && id >= \(historyNum)")
-                    print("下")
-                    print("dataListCount\(dataListArray.count)")
+                   
                 }
             case 2:
                 dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0")
@@ -162,6 +163,32 @@ class WordListViewController: UIViewController {
                 
             }
             
+            switch x {
+            case 0:
+                noMean = 1
+            case 1:
+                try! realm.write {
+                    self.realmDataList.Miss1 = 2
+                    self.realm.add(self.realmDataList, update: .modified)
+                }
+            case 2:
+                try! realm.write {
+                    self.realmDataList.Miss2 = 2
+                    self.realm.add(self.realmDataList, update: .modified)
+                }
+            case 3:
+                try! realm.write {
+                    self.realmDataList.Miss3 = 2
+                    self.realm.add(self.realmDataList, update: .modified)
+                }
+                
+            default:
+                try! realm.write {
+                    self.realmDataList.Miss4 = 2
+                    self.realm.add(self.realmDataList, update: .modified)
+                }
+            }
+            
         }
         
         if wordCount == dataListArray.count - 1 {
@@ -207,22 +234,26 @@ class WordListViewController: UIViewController {
             case 1:
                 try! realm.write {
                     self.realmDataList.Miss2 = 1
+                    self.realmDataList.Miss1 = 2
                     self.realm.add(self.realmDataList, update: .modified)
                 }
             case 2:
                 try! realm.write {
                     self.realmDataList.Miss3 = 1
+                    self.realmDataList.Miss2 = 2
                     self.realm.add(self.realmDataList, update: .modified)
                 }
             case 3:
                 try! realm.write {
                     self.realmDataList.Miss4 = 1
+                    self.realmDataList.Miss3 = 2
                     self.realm.add(self.realmDataList, update: .modified)
                 }
                 
             default:
                 try! realm.write {
                     self.realmDataList.Miss4 = 1
+                    self.realmDataList.Miss4 = 2
                     self.realm.add(self.realmDataList, update: .modified)
                 }
             }

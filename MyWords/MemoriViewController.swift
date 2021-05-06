@@ -21,7 +21,7 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var miss3Label: UILabel!
     @IBOutlet weak var miss4Label: UILabel!
     
-    
+   
     
     
     //    Realmのインスタンス化
@@ -42,14 +42,7 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-     
-        animationFunc1()
-        animationFunc2()
-        animationFunc3()
-        animationFunc4()
-        
-        
-        // Do any additional setup after loading the view.
+     // Do any additional setup after loading the view.
         
         let tapGesture:  UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyBoard))
         self.view.addGestureRecognizer(tapGesture)
@@ -76,9 +69,54 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
               // textViewのキーボードにツールバーを設定
               numTextField.inputAccessoryView = toolBar
         
-
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(viewWillEnterForeground(_:)),
+                                               name: UIScene.willEnterForegroundNotification,
+                                               object: nil)
         
     }
+    
+    
+//    バックグラウンドから復帰
+    @objc func viewWillEnterForeground(_ notification: Notification?) {
+        
+        
+        let dataList1 = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0")
+        let dataList2 = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0")
+        let dataList3 = try! Realm().objects(RealmDataList.self).filter("Miss3 != 0")
+        let dataList4 = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0")
+        
+        let dataList12 = try! Realm().objects(RealmDataList.self).filter("Miss1 == 2")
+        let dataList22 = try! Realm().objects(RealmDataList.self).filter("Miss2 == 2")
+        let dataList32 = try! Realm().objects(RealmDataList.self).filter("Miss3 == 2")
+        let dataList42 = try! Realm().objects(RealmDataList.self).filter("Miss4 == 2")
+        
+        //        アニメーション
+        if dataList1.count != dataList12.count {
+            animationFunc1()
+        }else {
+            animationView1.removeFromSuperview()
+        }
+        if dataList2.count != dataList22.count {
+            animationFunc2()
+        } else {
+            animationView2.removeFromSuperview()
+        }
+        if dataList3.count != dataList32.count {
+            animationFunc3()
+        } else {
+            animationView3.removeFromSuperview()
+        }
+        if dataList4.count != dataList42.count {
+            animationFunc4()
+        } else {
+            animationView4.removeFromSuperview()
+        }
+        
+    }
+
+   
+
     
     @objc func commitButtonTapped() {
         self.view.endEditing(true)
@@ -86,11 +124,20 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
 
     
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         let dataList0 = try! Realm().objects(RealmDataList.self)
         let dataList1 = try! Realm().objects(RealmDataList.self).filter("Miss1 != 0")
         let dataList2 = try! Realm().objects(RealmDataList.self).filter("Miss2 != 0")
         let dataList3 = try! Realm().objects(RealmDataList.self).filter("Miss3 != 0")
         let dataList4 = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0")
+        
+        let dataList12 = try! Realm().objects(RealmDataList.self).filter("Miss1 == 2")
+        let dataList22 = try! Realm().objects(RealmDataList.self).filter("Miss2 == 2")
+        let dataList32 = try! Realm().objects(RealmDataList.self).filter("Miss3 == 2")
+        let dataList42 = try! Realm().objects(RealmDataList.self).filter("Miss4 == 2")
+        
+        
+        
         allLabel.text = "\(dataList0.count - 1)"
         miss1Label.text = "\(dataList1.count)"
         miss2Label.text = "\(dataList2.count)"
@@ -106,7 +153,34 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
             wordHistory = WordHistory()
         }
         
+//        アニメーション
+        if dataList1.count != dataList12.count {
+            animationFunc1()
+        }else {
+            animationView1.removeFromSuperview()
+        }
+        if dataList2.count != dataList22.count {
+            animationFunc2()
+        } else {
+            animationView2.removeFromSuperview()
+        }
+        if dataList3.count != dataList32.count {
+            animationFunc3()
+        } else {
+            animationView3.removeFromSuperview()
+        }
+        if dataList4.count != dataList42.count {
+            animationFunc4()
+        } else {
+            animationView4.removeFromSuperview()
+        }
+        
+     
     }
+    
+ 
+    
+   
     
     /* ミスボタンの設定
      WordListViewControllerでミスボタンが押されると、ひとつ下のランクにコピーされる  リセットボタンで配列は空になる
@@ -251,7 +325,7 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
             dataListArray = try! Realm().objects(RealmDataList.self).filter("Miss4 != 0")
             
             if dataListArray.count != 0 {
-                print("call")
+                
                 segueNum = 4
                 self.performSegue(withIdentifier: "toWordList", sender: nil)
             } else {
@@ -372,6 +446,7 @@ class MemoriViewController: UIViewController, UITextFieldDelegate {
         self.present(dialog, animated: true, completion: nil)
 
     }
+    
     
    
     //    ダイアログの関数

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EuM-rc-uMG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EuM-rc-uMG">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -226,14 +226,6 @@
                                     <action selector="miss3ResetButton:" destination="rHW-Mn-1iK" eventType="touchUpInside" id="DfG-VH-isa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="910-sZ-wdB">
-                                <rect key="frame" x="299" y="610" width="54" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="reset"/>
-                                <connections>
-                                    <action selector="miss4ResetButton:" destination="rHW-Mn-1iK" eventType="touchUpInside" id="d7w-Tu-0o4"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aCB-5r-MX0">
                                 <rect key="frame" x="20" y="607" width="337" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -249,6 +241,14 @@
                                 </state>
                                 <connections>
                                     <action selector="miss4Button:" destination="rHW-Mn-1iK" eventType="touchUpInside" id="wiS-KB-l0Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8f-pA-72e">
+                                <rect key="frame" x="299" y="610" width="54" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="reset"/>
+                                <connections>
+                                    <action selector="miss4ResetButton:" destination="rHW-Mn-1iK" eventType="touchUpInside" id="BZP-rN-IEo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -426,6 +426,10 @@
                         <outlet property="labelD2" destination="Uag-kZ-OE4" id="kUb-fm-k1g"/>
                         <outlet property="labelD3" destination="SCK-Mh-VEo" id="qEs-tg-Ms1"/>
                         <outlet property="labelD4" destination="jcM-pB-Q2t" id="FbH-VB-AbL"/>
+                        <outlet property="numLabelD1" destination="MPE-oW-mZe" id="3kj-Fn-TgD"/>
+                        <outlet property="numLabelD2" destination="gZn-tR-WnW" id="QYW-k2-kiU"/>
+                        <outlet property="numLabelD3" destination="cWl-Ma-uDE" id="N8w-D3-VJu"/>
+                        <outlet property="numLabelD4" destination="Gox-UV-mT8" id="wXO-pO-t8f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M1B-xP-hQa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -947,8 +951,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="o0u-LW-1Al"/>
-        <segue reference="xui-cn-5Ab"/>
+        <segue reference="NOv-6p-Qzv"/>
+        <segue reference="Ywl-GJ-O1b"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="No" width="91.333335876464844" height="56"/>

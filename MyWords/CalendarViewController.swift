@@ -17,7 +17,7 @@ class CalendarViewController: UIViewController,UITableViewDelegate,UITableViewDa
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segument: UISegmentedControl!
-    
+    var firstNum = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +25,21 @@ class CalendarViewController: UIViewController,UITableViewDelegate,UITableViewDa
         // Do any additional setup after loading the view.
         tableView.delegate = self
         tableView.dataSource = self
+        
+       let numA = dataListArray.count / 4
+       let numB = numA / 50
+       let numC = numA % 50
+       
+       if numC <= 25 {
+           firstNum = numB * 50
+       } else {
+           firstNum = (numB + 1) * 50
+       }
+        
+        self.segument.setTitle("0~", forSegmentAt: 0)
+        self.segument.setTitle("\(firstNum)~", forSegmentAt: 1)
+        self.segument.setTitle("\(firstNum * 2)~", forSegmentAt: 2)
+        self.segument.setTitle("\(firstNum * 3)~", forSegmentAt: 3)
         
     }
     
@@ -49,13 +64,13 @@ class CalendarViewController: UIViewController,UITableViewDelegate,UITableViewDa
             let indexPath = NSIndexPath.init(row: 0, section: 0)
             self.tableView .scrollToRow(at: indexPath as IndexPath, at: UITableView.ScrollPosition.top, animated: false)
         case 1:
-            let indexPath = NSIndexPath.init(row: 500, section: 0)
+            let indexPath = NSIndexPath.init(row: firstNum, section: 0)
             self.tableView .scrollToRow(at: indexPath as IndexPath, at: UITableView.ScrollPosition.top, animated: false)
         case 2:
-            let indexPath = NSIndexPath.init(row: 1000, section: 0)
+            let indexPath = NSIndexPath.init(row: firstNum * 2, section: 0)
             self.tableView .scrollToRow(at: indexPath as IndexPath, at: UITableView.ScrollPosition.top, animated: false)
         case 3:
-            let indexPath = NSIndexPath.init(row: 1500, section: 0)
+            let indexPath = NSIndexPath.init(row: firstNum * 3, section: 0)
             self.tableView .scrollToRow(at: indexPath as IndexPath, at: UITableView.ScrollPosition.top, animated: false)
         default:
             let indexPath = NSIndexPath.init(row: 0, section: 0)
